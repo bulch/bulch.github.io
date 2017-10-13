@@ -1,15 +1,18 @@
-include ./include/_mixin.pug
-- var titleProject = 'bulch.ru' 
+include ./include/_mixin.pug 
 - var faviconPath = 'static/img/favicon/'
 
 doctype html
 html(lang='ru', class="no-js")
 	head
-		+meta-tags('keywords',
-			'description',
-			'author',
-			'applicationName',
-			'utf-8')
+		+meta-tags('title', 
+			'bulch.github.io', 
+			'keywords', 
+			'description', 
+			'bulch', 
+			'applicationName', 
+			'utf-8', 
+			'bulch.ru', 
+			w'bulch_design')
 		include ./include/_favicon.pug
 		include ./include/_firstCss.pug
 	body
