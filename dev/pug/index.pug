@@ -10,15 +10,18 @@ html(lang='ru', class="no-js")
 			'author',
 			'applicationName',
 			'utf-8')
-		//- include ./include/Favicon.jade
-		//- include ./include/FirstCss.jade
+		include ./include/_favicon.pug
+		include ./include/_firstCss.pug
 	body
 		<!--[if lt IE 8]>
 		noindex
 			p.browserupgrade You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=ru">upgrade your browser</a> to improve your experience.
 		<![endif]-->
 		.global_wrapper
-			h1 hello
+			.container
+				.row
+					.col
+						h1 hello
 			
 		.hidden
 		//- Поддержка старых браузеров
