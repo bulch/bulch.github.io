@@ -1,1 +1,11 @@
-theme: jekyll-theme-hacker
+# Site settings
+title: bulch
+email: bulch@bulch.ru
+description: Фронтенд и веб-разработка
+url: "https://bulch.ru"
+github_username:  bulch
+
+# Build settings
+# markdown: kramdown
+markdown: kramdown
+permalink: /:title
