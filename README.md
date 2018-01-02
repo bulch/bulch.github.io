@@ -1,15 +1,27 @@
-# my first test blog on github
-
-Basic use future list:
-
- * jekyll
- * blog
- * jekyll plugin
+# hello test homepage
 
 
-### Stuff used to make this:
+### ![я зделял](http://zagony.ru/admin_new/foto/2015-2-25/1424853921/zagonnye_komiksy_20_foto_1.jpg)
 
- * [pug](https://pugjs.org) for html
- * [sass](http://sass-lang.com/) for css
- * [bootstrap-grid.css](https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap-grid.css) v4 Grid Styles 
- * [bootstrap-reboot.css](https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap-reboot.css)
+  * [azbukabankrotstva.ru](azbukabankrotstva.ru)
+  * [vbankrotstve.ru](vbankrotstve.ru)
+  * [(kreditadvokat.ru](kreditadvokat.ru)
+  * [upravlyayushchiy.ru](upravlyayushchiy.ru)
+  * [лидерыправа.рф](лидерыправа.рф)
+  * [yagofarov.ru](yagofarov.ru)
+  * [bfl.yagofarov.ru](bfl.yagofarov.ru)
+  * [bflmsk.yagofarov.ru](bflmsk.yagofarov.ru)
+  * [bflspb.yagofarov.ru](bflspb.yagofarov.ru)
+  * [bflsaratov.yagofarov.ru](bflsaratov.yagofarov.ru)
+  * [ddu.yagofarov.ru](ddu.yagofarov.ru)
+  * [ddumsk.yagofarov.ru](ddumsk.yagofarov.ru)
+  * [ddumsk.yagofarov.ru](ddumsk.yagofarov.ru)
+  * [ddumsk.yagofarov.ru](ddumsk.yagofarov.ru)
+  * [advokatyagofarov.ru](advokatyagofarov.ru)
+  * [finsp.ru](finsp.ru)
+  * [hamam64.ru](hamam64.ru)
+  * [smogmag.ru](smogmag.ru)
+  * [vmfsaratov.ru](vmfsaratov.ru)
+  * [2016.youcon.ru](2016.youcon.ru)
+  * [avon-centre.ru](avon-centre.ru)
+  * [sarugol.ru](sarugol.ru)
