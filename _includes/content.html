@@ -4,8 +4,8 @@
       <h2>Ссылки на то что делал:</h2>
     </div>
     <div class="row">
-      % for work in site.data.work %}
-          {% assign loopindex = forloop.index0 | modulo: 4 %}
+      {% for work in site.data.work %}
+          {% assign loopindex = forloop.index0 %}
           <ul>
             <li>
               <a href="{{ work.website }}" title="{{ work.name }}" target="_blank">{{ work.name }}</a>
