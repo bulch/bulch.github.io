@@ -6,7 +6,7 @@
   <!-- Theme for mobile Chrome -->
   <meta name="theme-color" content="#e74c3c">
 
-  <title>test</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="homepage">
 
 </head>
