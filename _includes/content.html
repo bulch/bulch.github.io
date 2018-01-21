@@ -10,7 +10,10 @@
             <li>
               <a href="{{ work.website }}" title="{{ work.name }}" target="_blank">{{ work.name }}</a>
               <ul>
-                {% for work in site.data.work.tech %}{{ work.tech }}{% endfor %}
+              {% assign loopindex = forloop.index0  split: '  ' %}
+                  {% else %}
+                    {{ work.tech }}
+                  {% endif %}
               </ul>
               <span>{{ work.date }}</span>
             </li>
