@@ -5,12 +5,14 @@
     </div>
     <div class="row">
       {% for work in site.data.work %}
-          {% assign loopindex = forloop.index0 %}
+          {% assign loopwork = forloop.index0 %}
           <ul>
             <li>
               <a href="{{ work.website }}" title="{{ work.name }}" target="_blank">{{ work.name }}</a>
               <ul>
-                {{ work.tech }}  
+                {% for skill in work.tech %}
+                  {% assign skillID = forloop.index0 %}
+                    {{ skill.tech }}
               </ul>
               <span>{{ work.date }}</span>
             </li>
