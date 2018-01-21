@@ -10,7 +10,7 @@
             <li>
               <a href="{{ work.website }}" title="{{ work.name }}" target="_blank">{{ work.name }}</a>
               <ul>
-              {% assign loopindex = forloop.index0  split: '  ' %}
+              {% assign loopwork = work.tech  split: '  ' %}
                   {% else %}
                     {{ work.tech }}
                   {% endif %}
