@@ -1,4 +1,7 @@
 - name: 'bulch.ru'
   website: 'https://bulch.ru/'
-  tech: '<li>html</li><li>css</li>'
+  tech:
+    - html
+    - css
+    - github
   date: '2018'
