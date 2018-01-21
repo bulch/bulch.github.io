@@ -12,7 +12,8 @@
               <ul>
                 {% for skill in work.tech %}
                   {% assign skillID = forloop.index0 %}
-                    {{ skill.tech }}
+                    <li>{{ skill.tech }}</li>
+                {% endfor %}
               </ul>
               <span>{{ work.date }}</span>
             </li>
