@@ -10,10 +10,7 @@
             <li>
               <a href="{{ work.website }}" title="{{ work.name }}" target="_blank">{{ work.name }}</a>
               <ul>
-              {% assign loopwork = work.tech  split: '  ' %}
-                  {% else %}
-                    {{ work.tech }}
-                  {% endif %}
+                {{ work.tech }}  
               </ul>
               <span>{{ work.date }}</span>
             </li>
