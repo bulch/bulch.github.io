@@ -6,5 +6,5 @@
 - name: 'Русский уголь'
   description: ''
   website: 'http://sarugol.ru'
-  tech: '<li>html</li><li>css</li><li>gulp</li><li>stylus</li><li>js</li><li>jquery</li>'
+  tech: '<li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li>'
   date: '2017'
