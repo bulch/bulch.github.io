@@ -1,5 +1,5 @@
 -name: 'html'
--name: 'pug/(jade'
+-name: 'pug/jade'
 -name: 'haml'
 -name: 'css'
 -name: 'sass'
