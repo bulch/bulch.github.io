@@ -191,11 +191,15 @@ body {
   width: 100%;
   overflow: overlay;
 }
+ul.site__portfolio--tech,
 .site__tags ul  {
   display: block;
+  grid-template-columns: auto;
   list-style-type: none;
 }
-.site__tags ul li {
+.site__tags ul li, 
+.site__portfolio li> ul li, 
+.site__portfolio--tech li {
   background: #191919;
   padding: 15px 10px;
   margin: 5px;

@@ -230,11 +230,15 @@ body {
   width: 100%;
   overflow: overlay;
 }
+ul.site__portfolio--tech,
 .site__tags ul  {
   display: block;
+  grid-template-columns: auto;
   list-style-type: none;
 }
-.site__tags ul li {
+.site__tags ul li, 
+.site__portfolio li> ul li, 
+.site__portfolio--tech li {
   background: #191919;
   padding: 15px 10px;
   margin: 5px;
@@ -266,9 +270,9 @@ body {
           
             <li>
               <a href="https://bulch.ru/" title="bulch.ru" target="_blank" rel="nofollow">bulch.ru</a>
-              <span></span>
-              <ul>
-                <li>html</li><li>css</li><li>github</li>
+              <span>мой личный сайт )</span>
+              <ul class="site__portfolio--tech">
+                <li>html</li><li>css</li><li>github</li><li>jukyll</li>
               </ul>
               <span>2018</span>
             </li>
@@ -277,7 +281,7 @@ body {
             <li>
               <a href="http://sarugol.ru" title="Русский уголь" target="_blank" rel="nofollow">Русский уголь</a>
               <span></span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li>
               </ul>
               <span>2017-2018</span>
@@ -287,7 +291,7 @@ body {
             <li>
               <a href="http://azbukabankrotstva.ru/" title="Федеральный проект по оказанию помощи должникам «Школа банкротства»" target="_blank" rel="nofollow">Федеральный проект по оказанию помощи должникам «Школа банкротства»</a>
               <span></span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li>
               </ul>
               <span>15.09.2016</span>
@@ -297,7 +301,7 @@ body {
             <li>
               <a href="http://vbankrotstve.ru" title="Федеральная Экспертная Служба" target="_blank" rel="nofollow">Федеральная Экспертная Служба</a>
               <span></span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
               </ul>
               <span>2016</span>
@@ -307,7 +311,7 @@ body {
             <li>
               <a href="http://kreditadvokat.ru" title="Кредитный Адвокат" target="_blank" rel="nofollow">Кредитный Адвокат</a>
               <span></span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
               </ul>
               <span>1.10.2016</span>
@@ -317,7 +321,7 @@ body {
             <li>
               <a href="http://upravlyayushchiy.ru" title="Лига арбитражных управляющих" target="_blank" rel="nofollow">Лига арбитражных управляющих</a>
               <span></span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
               </ul>
               <span>16.11.2016</span>
@@ -327,7 +331,7 @@ body {
             <li>
               <a href="http://лидерыправа.рф" title="лидерыправа.рф" target="_blank" rel="nofollow">лидерыправа.рф</a>
               <span></span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>tilda</li>
               </ul>
               <span>16.11.2017</span>
@@ -337,7 +341,7 @@ body {
             <li>
               <a href="http://tort.artcake64.ru/" title="Кондитерские изделия - artcake64 " target="_blank" rel="nofollow">Кондитерские изделия - artcake64 </a>
               <span></span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>tilda</li>
               </ul>
               <span>2017</span>
@@ -347,7 +351,7 @@ body {
             <li>
               <a href="http://vmfsaratov.ru" title="2015 РОО «СОЮЗ ВОЕННЫХ МОРЯКОВ» Саратовское областное отделение" target="_blank" rel="nofollow">2015 РОО «СОЮЗ ВОЕННЫХ МОРЯКОВ» Саратовское областное отделение</a>
               <span></span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>js</li><li>jquery</li><li>php</li><li>wordpress</li>
               </ul>
               <span>2015</span>
@@ -357,7 +361,7 @@ body {
             <li>
               <a href="http://2016.youcon.ru/" title="Юкон-2016" target="_blank" rel="nofollow">Юкон-2016</a>
               <span>Осенью 2016 года в Саратове состоится ИТ-конференция! На одной площадке соберутся самые интересные докладчики, которые расскажут тебе о тенденциях в области технологий, разработки, продвижения и внедрения программного обеспечения, а также, о том, как построить собственный бизнес в ИТ или создать популярное Интернет-сообщество! Разработчик, интернет-маркетолог и предприниматель – каждый найдет для себя интересную секцию!</span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>js</li><li>jquery</li>
               </ul>
               <span>2016</span>
@@ -367,7 +371,7 @@ body {
             <li>
               <a href="http://avon-centre.ru/" title="Официальная регистрация Представителей Avon" target="_blank" rel="nofollow">Официальная регистрация Представителей Avon</a>
               <span>Стань представителем AVON прямо сейчас!</span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
               </ul>
               <span>27.11.2016</span>
@@ -377,7 +381,7 @@ body {
             <li>
               <a href="http://smogmag.ru/" title="Smog — издание об удобном Саратове" target="_blank" rel="nofollow">Smog — издание об удобном Саратове</a>
               <span></span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>js</li><li>jquery</li><li>php</li><li>wordpress</li>
               </ul>
               <span>2015</span>
@@ -387,7 +391,7 @@ body {
             <li>
               <a href="http://finsp.ru/" title="Услуги участникам госконтрактов Банковские гарантии" target="_blank" rel="nofollow">Услуги участникам госконтрактов Банковские гарантии</a>
               <span> </span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
               </ul>
               <span>2017</span>
@@ -397,7 +401,7 @@ body {
             <li>
               <a href="https://yagofarov.ru/" title="Адвокат Ягофаров корпоративный сайт" target="_blank" rel="nofollow">Адвокат Ягофаров корпоративный сайт</a>
               <span> </span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
               </ul>
               <span>2016</span>
@@ -407,7 +411,7 @@ body {
             <li>
               <a href="https://advokatyagofarov.ru/" title="Адвокат Ягофаров сайт визитка" target="_blank" rel="nofollow">Адвокат Ягофаров сайт визитка</a>
               <span> </span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
               </ul>
               <span>2017</span>
@@ -417,7 +421,7 @@ body {
             <li>
               <a href="https://bfl.yagofarov.ru/" title="Банкротство физических лиц -  Адвокат Ягофаров" target="_blank" rel="nofollow">Банкротство физических лиц -  Адвокат Ягофаров</a>
               <span> </span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
               </ul>
               <span>2017</span>
@@ -427,7 +431,7 @@ body {
             <li>
               <a href="https://ddu.yagofarov.ru/" title="Взыскание неустойки с застройщиков - Адвокат Ягофаров" target="_blank" rel="nofollow">Взыскание неустойки с застройщиков - Адвокат Ягофаров</a>
               <span> </span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
               </ul>
               <span>2017</span>
@@ -437,7 +441,7 @@ body {
             <li>
               <a href="https://hamam64.ru/" title="Строительство хаммамов, бань, басейнов и спа-зон в Саратове и области" target="_blank" rel="nofollow">Строительство хаммамов, бань, басейнов и спа-зон в Саратове и области</a>
               <span> </span>
-              <ul>
+              <ul class="site__portfolio--tech">
                 <li>html</li><li>css</li><li>gulp</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
               </ul>
               <span>2016-2018</span>
