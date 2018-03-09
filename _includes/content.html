@@ -1,12 +1,13 @@
 <div class="site__content">
+
   <div class="site__portfolio">
     <div class="row">
       <h2>Ссылки на то что делал:</h2>
     </div>
     <div class="row">
+      <ul>
       {% for work in site.data.work %}
           {% assign loopwork = forloop.index0 %}
-          <ul>
             <li>
               <a href="{{ work.website }}" title="{{ work.name }}" target="_blank">{{ work.name }}</a>
               <span>{{ work.description }}</span>
@@ -15,8 +16,9 @@
               </ul>
               <span>{{ work.date }}</span>
             </li>
-          </ul>
       {% endfor %}
+      </ul>
     </div>
   </div>
+
 </div>
