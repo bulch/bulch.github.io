@@ -27,8 +27,9 @@
     </div>
     <div class="row">
       <ul>
-        {% for tag in site.data.tags %}
-            <li>{{ tag.name }}</li>
+        {% for tags in site.data.tags %}
+          {% assign looptags = forloop.index0 | modulo: 2 %}
+            <li>{{ tags.name }}</li>
         {% endfor %}
       </ul>
     </div>
