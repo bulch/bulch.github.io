@@ -2,7 +2,7 @@
 
   <div class="site__portfolio">
     <div class="row">
-      <h2>Ссылки на то что делал:</h2>
+      <h2>My work:</h2>
     </div>
     <div class="row">
       <ul>
@@ -21,18 +21,6 @@
     </div>
   </div>
 
-  <div class="site__tags">
-    <div class="row">
-      <!-- <h2>key:</h2> -->
-    </div>
-    <div class="row">
-      <ul>
-        {% for tags in site.data.tags %}
-          {% assign looptags = forloop.index0 | modulo: 2 %}
-            <li>{{ tags.name }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+  
 
 </div>

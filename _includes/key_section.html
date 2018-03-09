@@ -1,0 +1,13 @@
+<div class="site__tags">
+  <div class="row">
+    <h2>key:</h2>
+  </div>
+  <div class="row">
+    <ul>
+      {% for tags in site.data.tags %}
+        {% assign looptags = forloop.index0 %}
+        <li>{{ tags.name }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
