@@ -1,0 +1,18 @@
+<div class="site__contact">
+  <div class="row">
+    <h2>{{ include.name }}</h2>
+  </div>
+  <div class="row">
+    <ul class="contact">
+      {% for contacts in site.data.contact %}
+        {% assign loopcont = forloop.index0 %}
+        <li>
+          <a class="contact__item" href="{{ contacts.url }}" title="{{ contacts.description }}">
+            <img src="{{ contacts.base64url }}" alt="{{ contacts.description }}">
+            <p>{{ contacts.name }}</p>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
