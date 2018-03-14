@@ -242,3 +242,8 @@ ul.site__portfolio--tech,
   bottom: -10px;
   transition: all .5s cubic-bezier(0.6, -0.6, 0.2, 1.5);
 }
+
+.site__footer {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
