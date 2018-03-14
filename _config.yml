@@ -1,9 +1,10 @@
 # Site settings
-title: bulch
-email: bulch@bulch.ru
-description: Фронтенд и веб-разработка
-url: "https://bulch.ru"
-github_username:  bulch
+title: 'bulch'
+email: 'bulch@bulch.ru'
+description: 'Фронтенд и веб-разработка'
+them_color: '#e74c3c'
+url: 'https://bulch.ru'
+github_username:  'bulch'
 
 # Build settings
 # markdown: kramdown
