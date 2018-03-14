@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
   {% include first_style.html%}
 <body>
-
   {% include header.html %}
-
-
   <main class="page-content">
     {% include content.html %}
-    {% include key_section.html %}
-
+    {% include portfolio.html name="My work: " %}
+    {% include key_section.html name="Key: " %}
   </main>
-
   {% include footer.html %}
-
 </body>
 </html>

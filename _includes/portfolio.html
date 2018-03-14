@@ -1,0 +1,24 @@
+<div class="site__portfolio">
+  <div class="row">
+    <h2>{{ include.name }}</h2>
+  </div>
+  <div class="row">
+    <ul>
+    {% for work in site.data.work %}
+        {% assign loopwork = forloop.index0 %}
+          <li class="hover-hw">
+            <a href="{{ work.website }}" title="{{ work.name }}" target="_blank" rel="nofollow">
+              <h1>
+                {{ work.name }}
+              </h1>
+            </a>
+            <span>{{ work.description }}</span>
+            <ul class="site__portfolio--tech">
+              {{ work.tech }}
+            </ul>
+            <span>{{ work.date }}</span>
+          </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
