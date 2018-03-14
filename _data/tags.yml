@@ -2,7 +2,7 @@
 - name: 'pug/jade'
 - name: 'haml'
 - name: 'css'
-- name: 'sass'
+- name: 'sass/scss'
 - name: 'stylus'
 - name: 'less'
 - name: 'js'
