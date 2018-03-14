@@ -7,7 +7,7 @@
       {% for contacts in site.data.contact %}
         {% assign loopcont = forloop.index0 %}
         <li>
-          <a class="contact__item hover-hw" href="{{ contacts.url }}" title="{{ contacts.description }}">
+          <a class="contact__item hover-hw" target="_blank" href="{{ contacts.url }}" title="{{ contacts.description }}">
             <img src="{{ contacts.base64url }}" alt="{{ contacts.description }}">
             <p>{{ contacts.name }}</p>
           </a>
