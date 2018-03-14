@@ -7,11 +7,11 @@
     {% for work in site.data.work %}
         {% assign loopwork = forloop.index0 %}
           <li class="hover-hw">
-            <a href="{{ work.website }}" title="{{ work.name }}" target="_blank" rel="nofollow">
+            <noindex><a href="{{ work.website }}" title="{{ work.name }}" target="_blank" rel="nofollow">
               <h1>
                 {{ work.name }}
               </h1>
-            </a>
+            </a></noindex>
             <span>{{ work.description }}</span>
             <ul class="site__portfolio--tech">
               {{ work.tech }}
