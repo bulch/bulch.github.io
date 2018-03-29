@@ -1,3 +1,6 @@
+html {
+  font-size: 14px;
+}
 body {
   background: #4A4A4A;
   font-family: 'Bree Serif';
@@ -5,8 +8,98 @@ body {
   cursor: default;
   color: white;
 }
+/* reset css  */
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+a {
+  cursor: pointer;
+}
+/* / reset css */
+
 .btn-green-color{
   background: #1DB954;
+}
+.site__header {
+  text-align: center;
 }
 .glitch {
   color: white;
@@ -183,7 +276,7 @@ body {
   list-style: none;
 }
 .site__portfolio ul li {
-  margin: 15px;
+  margin: 1px;
   padding: 15px 10px;
   background: #191919;
 }
@@ -205,11 +298,15 @@ ul.site__portfolio--tech,
 .site__portfolio li> ul li,
 .site__portfolio--tech li {
   background: #191919;
-  padding: 15px 10px;
-  margin: 5px;
+  padding: 5px 10px;
+  margin: 1px;
   display: inline-block;
   font-size: 0.8rem;
 }
+.hover-hw h1 {
+  display: inline-block;
+}
+
 .contact {
   list-style-type: none;
 }
