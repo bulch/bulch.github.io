@@ -7,6 +7,5 @@ url: 'https://bulch.ru'
 github_username:  'bulch'
 
 # Build settings
-# markdown: kramdown
 markdown: kramdown
 permalink: /:title
