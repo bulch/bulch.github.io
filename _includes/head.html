@@ -5,6 +5,7 @@
   <meta name="theme-color" content="{{ site.them_color }}">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.title %}{{ page.title }} - {{ page.description }}{% else %}{{ site.title }} - {{ site.description }}{% endif %}">
+  {% include og.html %}
   {% include favicon.html %}
   {% include first_style.html%}
 </head>
