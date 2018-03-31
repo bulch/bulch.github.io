@@ -4,9 +4,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#e74c3c">
+  <meta name="theme-color" content="#4A4A4A">
   <title>bulch</title>
   <meta name="description" content="bulch - Фронтенд и веб-разработка">
+  <meta property="og:title" content=" bulch " />
+<meta property="og:description" content="bulch - Фронтенд и веб-разработка" />
+<meta property="og:site_name" content="bulch" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:image" content="https://bulch.ru/screenshot.png" />
+<meta property="og:image:width" content="345" />
+<meta property="og:image:height" content="136" />
+
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://bulch.ru/static/img/favicon/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://bulch.ru/static/img/favicon/apple-touch-icon-114x114.png" />
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://bulch.ru/static/img/favicon/apple-touch-icon-72x72.png" />
@@ -21,7 +30,7 @@
 <link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-16x16.png" sizes="16x16" />
 <link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="bulch"/>
-<meta name="msapplication-TileColor" content="#e74c3c" />
+<meta name="msapplication-TileColor" content="#4A4A4A" />
 <meta name="msapplication-TileImage" content="https://bulch.ru/static/img/favicon/mstile-144x144.png" />
 <meta name="msapplication-square70x70logo" content="https://bulch.ru/static/img/favicon/mstile-70x70.png" />
 <meta name="msapplication-square150x150logo" content="https://bulch.ru/static/img/favicon/mstile-150x150.png" />
@@ -29,17 +38,7 @@
 <meta name="msapplication-square310x310logo" content="https://bulch.ru/static/img/favicon/mstile-310x310.png" />
 
   <style media="screen">
-  html {
-  font-size: 14px;
-}
-body {
-  background: #4A4A4A;
-  font-family: 'Bree Serif';
-  -webkit-user-select: none;
-  cursor: default;
-  color: white;
-}
-/* reset css  */
+  /* reset css  */
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
@@ -67,7 +66,6 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
 h1,
 h2,
 h3,
@@ -77,26 +75,21 @@ h6 {
   font-size: 100%;
   font-weight: normal;
 }
-
 ul {
   list-style: none;
 }
-
 button,
 input,
 select,
 textarea {
   margin: 0;
 }
-
 html {
   box-sizing: border-box;
 }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 img,
 embed,
 iframe,
@@ -106,26 +99,21 @@ video {
   height: auto;
   max-width: 100%;
 }
-
-iframe {
-  border: 0;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-td,
-th {
-  padding: 0;
-  text-align: left;
-}
 a {
   cursor: pointer;
 }
 /* / reset css */
-
+/* style  */
+html {
+  font-size: 14px;
+}
+body {
+  background: #4A4A4A;
+  font-family: 'Bree Serif';
+  -webkit-user-select: none;
+  cursor: default;
+  color: white;
+}
 .btn-green-color{
   background: #1DB954;
 }
@@ -222,7 +210,6 @@ a {
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim 2s infinite linear alternate-reverse;
 }
-
 @keyframes noise-anim-2 {
   0% {
     clip: rect(76px, 9999px, 48px, 0);
@@ -300,7 +287,6 @@ a {
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
-
 .site__portfolio ul {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -314,7 +300,6 @@ a {
 .site__tags ul li:hover {
   background: #222;
 }
-
 .site__tags {
   width: 100%;
   overflow: overlay;
@@ -337,7 +322,6 @@ ul.site__portfolio--tech,
 .hover-hw h1 {
   display: inline-block;
 }
-
 .contact {
   list-style-type: none;
 }
@@ -376,7 +360,6 @@ ul.site__portfolio--tech,
   bottom: -10px;
   transition: all .5s cubic-bezier(0.6, -0.6, 0.2, 1.5);
 }
-
 .site__footer {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -457,15 +440,15 @@ ul.site__portfolio--tech,
 </head>
 
   <!--[if lt IE 9]>
-		<script>
-			var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
-			for (var i = 0; i < e.length; i++) {
-				document.createElement(e[i]);
-			}
-		</script>
+  <script>
+    var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
+    for (var i = 0; i < e.length; i++) {
+      document.createElement(e[i]);
+    }
+  </script>
 <![endif]-->
-<body>
 
+<body>
   <header class="site__header">
 	<a href="https://bulch.ru/">
 		<div class="glitch" data-text="hello">hello</div>
