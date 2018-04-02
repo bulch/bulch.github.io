@@ -20,7 +20,9 @@
             <ul class="site__portfolio--tech">
               {{ work.tech }}
             </ul>
-            <time pubdate datetime="{{ work.date }}">{{ work.date | date: "%Y" }}</time>
+            <time pubdate datetime="{{ work.date }}">
+              {{ work.date | date: "%Y" }}
+            </time>
           </article>
         </li>
     {% endfor %}
