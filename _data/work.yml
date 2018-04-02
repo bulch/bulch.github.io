@@ -4,7 +4,7 @@
   tech: '<li>html</li><li>css</li><li>github</li><li>jukyll</li>'
   date: '2018-03-01'
 - name: 'Русский уголь'
-  description: 'Красивый сайт с калькулятором стоимости и возможностью преварительного заказа древесного угля'
+  description: 'Красивый сайт с калькулятором стоимости и возможностью предварительного заказа древесного угля'
   website: 'http://sarugol.ru'
   tech: '<li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li>'
   date: '2017-03-01'
