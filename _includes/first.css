@@ -324,3 +324,11 @@ ul.site__portfolio--tech,
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
 }
+
+li.hover-hw article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
