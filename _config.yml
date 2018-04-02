@@ -5,6 +5,7 @@ description: 'Фронтенд и веб-разработка'
 them_color: '#4A4A4A'
 url: 'https://bulch.ru'
 github_username:  'bulch'
+yandex_verification: '7f713c6d07f116b4'
 
 # Build settings
 markdown: kramdown
