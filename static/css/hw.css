@@ -16,6 +16,11 @@
   -webkit-animation: gradientMove 200ms ease infinite;
           animation: gradientMove 200ms ease infinite;
 }
+.hover-hw p {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 15px 10px;
+  margin: 5px;
+}
 .hover-hw a {
   text-decoration: none;
 }
