@@ -6,8 +6,8 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.title %} {{ page.title }} - {{ page.description }}{% else %}{{ site.title }} - {{ site.description }}{% endif %}">
   <meta name="yandex-verification" content="{{ site.yandex_verification }}" />
-  {% include og.html %}
-  {% include twitter_card.html %}
-  {% include favicon.html %}
+  {% include module/og.html %}
+  {% include module/twitter_card.html %}
+  {% include module/favicon.html %}
   {% include first_style.html%}
 </head>
