@@ -1,7 +1,7 @@
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@bulch" />
-<meta name="twitter:creator" content="@bulch_design" />
+<meta name="twitter:site" content="{{ include.twitter_site }}" />
+<meta name="twitter:creator" content="{{ include.twitter_site }}" />
 <meta property="og:url" content="{{ site.url }}" />
 <meta property="og:title" content=" {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} " />
 <meta property="og:description" content="{% if page.title %}{{ page.title }} - {{ page.description }}{% else %}{{ site.title }} - {{ site.description }}{% endif %}" />
-<meta property="og:image" content="{{ site.url }}/static/img/terminal.png" />
+<meta property="og:image" content="{{ site.url }}{{ include.imgUrl }}" />
