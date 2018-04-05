@@ -5,4 +5,7 @@ gulpfile.js
 *.js
 *.json
 Gemfile.lock
+_site/*.*
+_site/*/*.*
+_site/*/*/*.*
 # gitignore

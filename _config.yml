@@ -10,3 +10,6 @@ yandex_verification: '7f713c6d07f116b4'
 # Build settings
 markdown: kramdown
 permalink: /:title
+
+gems:
+    - jekyll-minifier
