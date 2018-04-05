@@ -1,1 +1,1236 @@
-<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="theme-color" content="#4A4A4A"> <title>bulch</title> <meta name="description" content="bulch - Фронтенд и веб-разработка"> <meta name="yandex-verification" content="7f713c6d07f116b4"/> <meta property="og:title" content=" bulch "/> <meta property="og:description" content="bulch - Фронтенд и веб-разработка"/> <meta property="og:site_name" content="bulch"/> <meta property="og:type" content="website"/> <meta property="og:locale" content="ru_RU"/> <meta property="og:url" content="https://bulch.ru"/> <meta property="og:image" content="https://bulch.ru/static/img/terminal.png"/> <meta property="og:image:width" content="345"/> <meta property="og:image:height" content="136"/> <meta name="twitter:card" content="summary"/> <meta name="twitter:site" content="@bulch_design"/> <meta name="twitter:creator" content="@bulch_design"/> <meta property="og:url" content="https://bulch.ru"/> <meta property="og:title" content=" bulch "/> <meta property="og:description" content="bulch - Фронтенд и веб-разработка"/> <meta property="og:image" content="https://bulch.ru/static/img/terminal.png"/> <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://bulch.ru/static/img/favicon/apple-touch-icon-57x57.png"/> <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://bulch.ru/static/img/favicon/apple-touch-icon-114x114.png"/> <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://bulch.ru/static/img/favicon/apple-touch-icon-72x72.png"/> <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://bulch.ru/static/img/favicon/apple-touch-icon-144x144.png"/> <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://bulch.ru/static/img/favicon/apple-touch-icon-60x60.png"/> <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://bulch.ru/static/img/favicon/apple-touch-icon-120x120.png"/> <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://bulch.ru/static/img/favicon/apple-touch-icon-76x76.png"/> <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://bulch.ru/static/img/favicon/apple-touch-icon-152x152.png"/> <link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-196x196.png" sizes="196x196"/> <link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-96x96.png" sizes="96x96"/> <link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-32x32.png" sizes="32x32"/> <link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-16x16.png" sizes="16x16"/> <link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-128.png" sizes="128x128"/> <meta name="application-name" content="bulch"/> <meta name="msapplication-TileColor" content="#4A4A4A"/> <meta name="msapplication-TileImage" content="https://bulch.ru/static/img/favicon/mstile-144x144.png"/> <meta name="msapplication-square70x70logo" content="https://bulch.ru/static/img/favicon/mstile-70x70.png"/> <meta name="msapplication-square150x150logo" content="https://bulch.ru/static/img/favicon/mstile-150x150.png"/> <meta name="msapplication-wide310x150logo" content="https://bulch.ru/static/img/favicon/mstile-310x150.png"/> <meta name="msapplication-square310x310logo" content="https://bulch.ru/static/img/favicon/mstile-310x310.png"/> <style media="screen">/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}a{cursor:pointer}html{font-size:14px}body{background:#4a4a4a;-webkit-user-select:none;font-family:'Jura',sans-serif;cursor:default;color:white;padding:2em}body h2{margin-top:2em;margin-bottom:1em}.btn-green-color{background:#1db954}.site__header{text-align:center}.glitch{color:white;font-size:100px;position:relative;margin:0 auto;-webkit-user-select:none;font-family:'VT323',monospace;cursor:default;display:inline-block}.glitch:hover{cursor:pointer}@keyframes noise-anim{0%{clip:rect(72px,9999px,7px,0)}5%{clip:rect(72px,9999px,87px,0)}10%{clip:rect(71px,9999px,90px,0)}15%{clip:rect(46px,9999px,91px,0)}20%{clip:rect(77px,9999px,69px,0)}25%{clip:rect(39px,9999px,52px,0)}30%{clip:rect(31px,9999px,30px,0)}35%{clip:rect(84px,9999px,25px,0)}40%{clip:rect(24px,9999px,25px,0)}45%{clip:rect(23px,9999px,44px,0)}50%{clip:rect(55px,9999px,75px,0)}55%{clip:rect(93px,9999px,20px,0)}60%{clip:rect(11px,9999px,51px,0)}65%{clip:rect(4px,9999px,18px,0)}70%{clip:rect(81px,9999px,6px,0)}75%{clip:rect(54px,9999px,22px,0)}80%{clip:rect(33px,9999px,14px,0)}85%{clip:rect(45px,9999px,22px,0)}90%{clip:rect(30px,9999px,83px,0)}95%{clip:rect(63px,9999px,85px,0)}100%{clip:rect(36px,9999px,27px,0)}}.glitch:after{content:attr(data-text);position:absolute;left:2px;text-shadow:-1px 0 red;top:0;color:white;background:#4a4a4a;overflow:hidden;clip:rect(0,900px,0,0);animation:noise-anim 2s infinite linear alternate-reverse}@keyframes noise-anim-2{0%{clip:rect(76px,9999px,48px,0)}5%{clip:rect(83px,9999px,44px,0)}10%{clip:rect(26px,9999px,33px,0)}15%{clip:rect(21px,9999px,60px,0)}20%{clip:rect(75px,9999px,97px,0)}25%{clip:rect(39px,9999px,32px,0)}30%{clip:rect(46px,9999px,70px,0)}35%{clip:rect(60px,9999px,49px,0)}40%{clip:rect(84px,9999px,64px,0)}45%{clip:rect(92px,9999px,45px,0)}50%{clip:rect(66px,9999px,44px,0)}55%{clip:rect(6px,9999px,16px,0)}60%{clip:rect(57px,9999px,55px,0)}65%{clip:rect(49px,9999px,96px,0)}70%{clip:rect(77px,9999px,72px,0)}75%{clip:rect(76px,9999px,80px,0)}80%{clip:rect(91px,9999px,43px,0)}85%{clip:rect(24px,9999px,25px,0)}90%{clip:rect(67px,9999px,56px,0)}95%{clip:rect(12px,9999px,14px,0)}100%{clip:rect(91px,9999px,87px,0)}}.glitch:before{content:attr(data-text);position:absolute;left:-2px;text-shadow:1px 0 blue;top:0;color:white;background:#4a4a4a;overflow:hidden;clip:rect(0,900px,0,0);animation:noise-anim-2 3s infinite linear alternate-reverse}.site__portfolio ul{display:grid;grid-template-columns:25% 25% 25% 25%;list-style:none}.site__portfolio ul li{margin:1px;padding:15px 10px;background:#191919}.site__tags ul li:hover{background:#222}.site__tags{width:100%}ul.site__portfolio--tech,.site__tags ul{display:block;grid-template-columns:auto;list-style-type:none}.site__tags ul li,.site__portfolio li>ul li,.site__portfolio--tech li{background:#191919;padding:5px 10px;margin:1px;display:inline-block;font-size:.8rem}.hover-hw h1{display:inline-block}.contact{list-style-type:none}.contact li{display:inline-block;margin:auto 15px}.contact__item{color:#fff;background:#808080;text-align:center;text-decoration:none;position:relative;width:40px;height:40px;display:flex;justify-content:center;align-items:center;transition:all .5s}.contact__item img{width:24px}.contact__item:hover img+p{visibility:visible;bottom:36px;z-index:2}.contact__item p{visibility:hidden;position:absolute;width:max-content;z-index:-1;background:#191919;padding:5px 10px;bottom:-10px;transition:all .5s cubic-bezier(0.6,-0.6,0.2,1.5)}.contact__item--cer{width:36px;height:36px;margin:10px}.site__footer{display:grid;grid-template-columns:25% 25% 25% 25%}li.hover-hw article{height:100%;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start}.site__portfolio .list_cer li{background:transparent}</style> <style>@media only screen and (min-width:320px){.site__portfolio ul{grid-template-columns:100%}}@media only screen and (min-width:480px){.site__portfolio ul{grid-template-columns:50% 50%}}@media only screen and (min-width:768px){.site__portfolio ul{grid-template-columns:33% 33% 33%}}@media only screen and (min-width:1024px){.site__portfolio ul{grid-template-columns:25% 25% 25% 25%}}</style> <script type="text/javascript">!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script> <script type="text/javascript">loadLocalStorageCSS("webfonts","https://fonts.googleapis.com/css?family=VT323"),loadLocalStorageCSS("webfonts","https://fonts.googleapis.com/css?family=Jura"),loadCSS("static/css/hw.css?ver=1.0.0",!1,"all");</script> <noscript> <link href="static/css/hw.css?ver=1.0.0" rel="stylesheet" type="text/css"> </noscript> </head> <!--[if lt IE 9]><script>for(var e="article,aside,figcaption,figure,footer,header,hgroup,nav,section,time".split(","),i=0;i<e.length;i++)document.createElement(e[i]);</script><![endif]--> <body> <header class="site__header"> <a href="https://bulch.ru/"> <div class="glitch" data-text="hello">hello</div> </a> </header> <main class="page-content"> <div class="site__portfolio"> <div class="row"> <h2>My work: </h2> </div> <div class="row"> <ul> <li class="hover-hw"> <article> <noindex> <a href="https://bulch.ru/" title="bulch.ru" target="_blank" rel="nofollow"> <h1> Bulch.ru </h1> </a> </noindex> <p>мой личный сайт )</p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>github</li><li>jukyll</li> </ul> <time pubdate datetime="2018-03-01"> 2018 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://tort.artcake64.ru/" title="Кондитерские изделия - artcake64 " target="_blank" rel="nofollow"> <h1> Кондитерские изделия - artcake64 </h1> </a> </noindex> <p>Сайт на тильде для продажи тортиков и всяких вкусностей</p> <ul class="site__portfolio--tech"> <li>tilda</li> </ul> <time pubdate datetime="2017-12-08"> 2017 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://лидерыправа.рф" title="лидерыправа.рф" target="_blank" rel="nofollow"> <h1> Лидерыправа.рф </h1> </a> </noindex> <p>Сайт на тильде. Регистрация в конкурсе лидерыправа</p> <ul class="site__portfolio--tech"> <li>tilda</li> </ul> <time pubdate datetime="2017-11-16"> 2017 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://finsp.ru/" title="Услуги участникам госконтрактов Банковские гарантии" target="_blank" rel="nofollow"> <h1> Услуги участникам госконтрактов банковские гарантии </h1> </a> </noindex> <p>Сайт с калькулятором расчета стоимости гарантий по 44-ФЗ, 223-ФЗ, 615-ПП (185-ФЗ)</p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li> </ul> <time pubdate datetime="2017-10-20"> 2017 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://sarugol.ru" title="Русский уголь" target="_blank" rel="nofollow"> <h1> Русский уголь </h1> </a> </noindex> <p>Красивый сайт с калькулятором стоимости и возможностью предварительного заказа древесного угля</p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li> </ul> <time pubdate datetime="2017-03-01"> 2017 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="https://ddu.yagofarov.ru/" title="Взыскание неустойки с застройщиков - Адвокат Ягофаров" target="_blank" rel="nofollow"> <h1> Взыскание неустойки с застройщиков - адвокат ягофаров </h1> </a> </noindex> <p>Посадочная страница с небольшим калькулятором неустойки. Сделан для 3 городов. </p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li> </ul> <time pubdate datetime="2017-02-20"> 2017 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="https://bfl.yagofarov.ru/" title="Банкротство физических лиц - Адвокат Ягофаров" target="_blank" rel="nofollow"> <h1> Банкротство физических лиц - адвокат ягофаров </h1> </a> </noindex> <p>Посадочная страница для банкротов. Много полезной информации и возможность отправить заявку. Сделан для 3 городов.</p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li> </ul> <time pubdate datetime="2017-02-10"> 2017 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="https://advokatyagofarov.ru/" title="Адвокат Ягофаров сайт визитка" target="_blank" rel="nofollow"> <h1> Адвокат ягофаров сайт визитка </h1> </a> </noindex> <p>Личный сайт визитка адвоката</p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li> </ul> <time pubdate datetime="2017-01-20"> 2017 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="https://yagofarov.ru/" title="Адвокат Ягофаров корпоративный сайт" target="_blank" rel="nofollow"> <h1> Адвокат ягофаров корпоративный сайт </h1> </a> </noindex> <p>Большой корпоративный сайт для адвоката с большим количеством правовой информации и опытом компании</p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li> </ul> <time pubdate datetime="2016-12-10"> 2016 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://avon-centre.ru/" title="Официальная регистрация Представителей Avon" target="_blank" rel="nofollow"> <h1> Официальная регистрация представителей avon </h1> </a> </noindex> <p>Стань представителем AVON прямо сейчас!</p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li> </ul> <time pubdate datetime="2016-11-27"> 2016 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://upravlyayushchiy.ru" title="Лига арбитражных управляющих" target="_blank" rel="nofollow"> <h1> Лига арбитражных управляющих </h1> </a> </noindex> <p>Клон сайт Кредитный Адвокат находятся под одной cmf modx </p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li> </ul> <time pubdate datetime="2016-11-16"> 2016 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="https://hamam64.ru/" title="Строительство хаммамов, бань, бассейнов и спа-зон в Саратове и области" target="_blank" rel="nofollow"> <h1> Строительство хаммамов, бань, бассейнов и спа-зон в саратове и области </h1> </a> </noindex> <p>c 2016 до 2018 года сайт потерпел 3 редизайна</p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>gulp</li><li>js</li><li>jquery</li><li>php</li><li>modx</li> </ul> <time pubdate datetime="2016-10-20"> 2016 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://kreditadvokat.ru" title="Кредитный Адвокат" target="_blank" rel="nofollow"> <h1> Кредитный адвокат </h1> </a> </noindex> <p>Корпоративный сайт для компании адвокатов</p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li> </ul> <time pubdate datetime="2016-10-1"> 2016 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://azbukabankrotstva.ru/" title="Федеральный проект по оказанию помощи должникам «Школа банкротства»" target="_blank" rel="nofollow"> <h1> Федеральный проект по оказанию помощи должникам «школа банкротства» </h1> </a> </noindex> <p>Посадочная страница, для продажи книги инструкции по самостоятельному проведению процедуры банкротства физического лица </p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li> </ul> <time pubdate datetime="2016-09-15"> 2016 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://vbankrotstve.ru" title="Федеральная Экспертная Служба" target="_blank" rel="nofollow"> <h1> Федеральная экспертная служба </h1> </a> </noindex> <p>Сайт ФЭС по банкротству. С уклоном на статьи и новости банкротства. Не обновляется</p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li> </ul> <time pubdate datetime="2016-08-20"> 2016 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://2016.youcon.ru/" title="Юкон-2016" target="_blank" rel="nofollow"> <h1> Юкон-2016 </h1> </a> </noindex> <p>Осенью 2016 года в Саратове состоялась ИТ-конференция! Посадочная страница, страница регистрации на конференцию. </p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>js</li><li>jquery</li> </ul> <time pubdate datetime="2016-05-09"> 2016 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://smogmag.ru/" title="Smog — издание об удобном Саратове" target="_blank" rel="nofollow"> <h1> Smog — издание об удобном саратове </h1> </a> </noindex> <p>Сайт издания, для многих пользователей с модерацией, визуальными редакторами и кучей плагинов для вордпресс</p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>js</li><li>jquery</li><li>php</li><li>wordpress</li> </ul> <time pubdate datetime="2015-03-14"> 2015 </time> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://vmfsaratov.ru" title="2015 РОО «СОЮЗ ВОЕННЫХ МОРЯКОВ» Саратовское областное отделение" target="_blank" rel="nofollow"> <h1> 2015 роо «союз военных моряков» саратовское областное отделение </h1> </a> </noindex> <p>Сайт для фотоотчетов и новостной ленты </p> <ul class="site__portfolio--tech"> <li>html</li><li>css</li><li>js</li><li>jquery</li><li>php</li><li>wordpress</li> </ul> <time pubdate datetime="2015-02-22"> 2015 </time> </article> </li> </ul> </div> </div> <div class="site__tags"> <div class="row"> <h2>Key: </h2> </div> <div class="row"> <ul> <li>html</li> <li>pug/jade</li> <li>haml</li> <li>css</li> <li>sass/scss</li> <li>stylus</li> <li>less</li> <li>js</li> <li>jquery</li> <li>zepto</li> <li>gulp/Grunt</li> <li>webpack</li> <li>bootstrap</li> <li>foundation</li> <li>php</li> <li>xml</li> <li>json</li> <li>yaml/yml</li> <li>MySQL</li> <li>PhpMyAdmin</li> <li>bash</li> <li>Markdown</li> <li>Apache HTTP Server</li> <li>htaccess</li> <li>nginx</li> <li>XAMPP</li> <li>modx</li> <li>wordpress</li> <li>joomla</li> <li>git</li> <li>github</li> <li>jekyll</li> <li>CPanel </li> <li>ISP-Manager</li> <li>Adobe Photoshop</li> <li>GIMP</li> <li>Sublime Text</li> <li>Atom</li> <li>Debian</li> <li>centos</li> <li>ubuntu</li> <li>windows</li> <li>ssl</li> <li>dns</li> <li>node</li> <li>npm</li> <li>Bower</li> </ul> </div> </div> <div class="site__portfolio site_cer"> <div class="row"> <h2>Certificate: </h2> </div> <div class="row"> <ul> <li class="hover-hw"> <article> <noindex> <a href="http://sertificat.templatemonster.ru/certification/kornev-bronislav-10243/" title="Веб-разработчик по продукту JOOMLA - Успешно прошел сертификацию от компании templatemonster по продукту Joomla" target="_blank" rel="nofollow"> <h1> Веб-разработчик по продукту JOOMLA </h1> </a> </noindex> <p>Успешно прошел сертификацию от компании templatemonster по продукту Joomla</p> <ul class="list_cer"> <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="http://sertificat.templatemonster.ru/wp-content/uploads/2017/03/--------------------------------10243.jpg" title="Веб-разработчик по продукту JOOMLA - Успешно прошел сертификацию от компании templatemonster по продукту Joomla"> <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере"> <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p> </a> </li> <li> <a class="contact__item contact__item--cer hover-hw" target="_blank" href="http://sertificat.templatemonster.ru/certification/kornev-bronislav-10243/" title="Веб-разработчик по продукту JOOMLA - Успешно прошел сертификацию от компании templatemonster по продукту Joomla"> <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" alt="Перейти на по внешний ссылки"> <p style=" background: rgba(39, 39, 39, 0.7); ">Перейти на по внешний ссылки</p> </a> </li> </ul> </article> </li> <li class="hover-hw"> <article> <noindex> <a href="http://sertificat.templatemonster.ru/certification/kornev-bronislav-10066/" title="Веб-разработчик по продукту WORDPRESS - Успешно прошел сертификацию от компании templatemonster по продукту WORDPRESS" target="_blank" rel="nofollow"> <h1> Веб-разработчик по продукту WORDPRESS </h1> </a> </noindex> <p>Успешно прошел сертификацию от компании templatemonster по продукту WORDPRESS</p> <ul class="list_cer"> <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="http://sertificat.templatemonster.ru/wp-content/uploads/2017/03/--------------------------------10066.jpg" title="Веб-разработчик по продукту WORDPRESS - Успешно прошел сертификацию от компании templatemonster по продукту WORDPRESS"> <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере"> <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p> </a> </li> <li> <a class="contact__item contact__item--cer hover-hw" target="_blank" href="http://sertificat.templatemonster.ru/certification/kornev-bronislav-10066/" title="Веб-разработчик по продукту WORDPRESS - Успешно прошел сертификацию от компании templatemonster по продукту WORDPRESS"> <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" alt="Перейти на по внешний ссылки"> <p style=" background: rgba(39, 39, 39, 0.7); ">Перейти на по внешний ссылки</p> </a> </li> </ul> </article> </li> </ul> </div> </div> </main> <footer class="site__footer"> <div class="site__footer_col"> <div class="site__contact"> <div class="row"> <h2>Contacts: </h2> </div> <div class="row"> <ul class="contact"> <li> <a class="contact__item hover-hw" target="_blank" href="https://vk.com/illumination_it" title="Группа vk около IT тематики"> <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDU0OC4zNTggNTQ4LjM1OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTQ4LjM1OCA1NDguMzU4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTU0NS40NTEsNDAwLjI5OGMtMC42NjQtMS40MzEtMS4yODMtMi42MTgtMS44NTgtMy41NjljLTkuNTE0LTE3LjEzNS0yNy42OTUtMzguMTY3LTU0LjUzMi02My4xMDJsLTAuNTY3LTAuNTcxICAgbC0wLjI4NC0wLjI4bC0wLjI4Ny0wLjI4N2gtMC4yODhjLTEyLjE4LTExLjYxMS0xOS44OTMtMTkuNDE4LTIzLjEyMy0yMy40MTVjLTUuOTEtNy42MTQtNy4yMzQtMTUuMzIxLTQuMDA0LTIzLjEzICAgYzIuMjgyLTUuOSwxMC44NTQtMTguMzYsMjUuNjk2LTM3LjM5N2M3LjgwNy0xMC4wODksMTMuOTktMTguMTc1LDE4LjU1Ni0yNC4yNjdjMzIuOTMxLTQzLjc4LDQ3LjIwOC03MS43NTYsNDIuODI4LTgzLjkzOSAgIGwtMS43MDEtMi44NDdjLTEuMTQzLTEuNzE0LTQuMDkzLTMuMjgyLTguODQ2LTQuNzEyYy00Ljc2NC0xLjQyNy0xMC44NTMtMS42NjMtMTguMjc4LTAuNzEybC04Mi4yMjQsMC41NjggICBjLTEuMzMyLTAuNDcyLTMuMjM0LTAuNDI4LTUuNzEyLDAuMTQ0Yy0yLjQ3NSwwLjU3Mi0zLjcxMywwLjg1OS0zLjcxMywwLjg1OWwtMS40MzEsMC43MTVsLTEuMTM2LDAuODU5ICAgYy0wLjk1MiwwLjU2OC0xLjk5OSwxLjU2Ny0zLjE0MiwyLjk5NWMtMS4xMzcsMS40MjMtMi4wODgsMy4wOTMtMi44NDgsNC45OTZjLTguOTUyLDIzLjAzMS0xOS4xMyw0NC40NDQtMzAuNTUzLDY0LjIzOCAgIGMtNy4wNDMsMTEuODAzLTEzLjUxMSwyMi4wMzItMTkuNDE4LDMwLjY5M2MtNS44OTksOC42NTgtMTAuODQ4LDE1LjAzNy0xNC44NDIsMTkuMTI2Yy00LDQuMDkzLTcuNjEsNy4zNzItMTAuODUyLDkuODQ5ICAgYy0zLjIzNywyLjQ3OC01LjcwOCwzLjUyNS03LjQxOSwzLjE0MmMtMS43MTUtMC4zODMtMy4zMy0wLjc2My00Ljg1OS0xLjE0M2MtMi42NjMtMS43MTQtNC44MDUtNC4wNDUtNi40Mi02Ljk5NSAgIGMtMS42MjItMi45NS0yLjcxNC02LjY2My0zLjI4NS0xMS4xMzZjLTAuNTY4LTQuNDc2LTAuOTA0LTguMzI2LTEtMTEuNTYzYy0wLjA4OS0zLjIzMy0wLjA0OC03LjgwNiwwLjE0NS0xMy43MDYgICBjMC4xOTgtNS45MDMsMC4yODctOS44OTcsMC4yODctMTEuOTkxYzAtNy4yMzQsMC4xNDEtMTUuMDg1LDAuNDI0LTIzLjU1NWMwLjI4OC04LjQ3LDAuNTIxLTE1LjE4MSwwLjcxNi0yMC4xMjUgICBjMC4xOTQtNC45NDksMC4yODQtMTAuMTg1LDAuMjg0LTE1LjcwNXMtMC4zMzYtOS44NDktMS0xMi45OTFjLTAuNjU2LTMuMTM4LTEuNjYzLTYuMTg0LTIuOTktOS4xMzcgICBjLTEuMzM1LTIuOTUtMy4yODktNS4yMzItNS44NTMtNi44NTJjLTIuNTY5LTEuNjE4LTUuNzYzLTIuOTAyLTkuNTY0LTMuODU2Yy0xMC4wODktMi4yODMtMjIuOTM2LTMuNTE4LTM4LjU0Ny0zLjcxICAgYy0zNS40MDEtMC4zOC01OC4xNDgsMS45MDYtNjguMjM2LDYuODU1Yy0zLjk5NywyLjA5MS03LjYxNCw0Ljk0OC0xMC44NDgsOC41NjJjLTMuNDI3LDQuMTg5LTMuOTA1LDYuNDc1LTEuNDMxLDYuODUxICAgYzExLjQyMiwxLjcxMSwxOS41MDgsNS44MDQsMjQuMjY3LDEyLjI3NWwxLjcxNSwzLjQyOWMxLjMzNCwyLjQ3NCwyLjY2Niw2Ljg1NCwzLjk5OSwxMy4xMzRjMS4zMzEsNi4yOCwyLjE5LDEzLjIyNywyLjU2OCwyMC44MzcgICBjMC45NSwxMy44OTcsMC45NSwyNS43OTMsMCwzNS42ODljLTAuOTUzLDkuOS0xLjg1MywxNy42MDctMi43MTIsMjMuMTI3Yy0wLjg1OSw1LjUyLTIuMTQzLDkuOTkzLTMuODU1LDEzLjQxOCAgIGMtMS43MTUsMy40MjYtMi44NTYsNS41Mi0zLjQyOCw2LjI4Yy0wLjU3MSwwLjc2LTEuMDQ3LDEuMjM5LTEuNDI1LDEuNDI3Yy0yLjQ3NCwwLjk0OC01LjA0NywxLjQzMS03LjcxLDEuNDMxICAgYy0yLjY2NywwLTUuOTAxLTEuMzM0LTkuNzA3LTRjLTMuODA1LTIuNjY2LTcuNzU0LTYuMzI4LTExLjg0Ny0xMC45OTJjLTQuMDkzLTQuNjY1LTguNzA5LTExLjE4NC0xMy44NS0xOS41NTggICBjLTUuMTM3LTguMzc0LTEwLjQ2Ny0xOC4yNzEtMTUuOTg3LTI5LjY5MWwtNC41NjctOC4yODJjLTIuODU1LTUuMzI4LTYuNzU1LTEzLjA4Ni0xMS43MDQtMjMuMjY3ICAgYy00Ljk1Mi0xMC4xODUtOS4zMjktMjAuMDM3LTEzLjEzNC0yOS41NTRjLTEuNTIxLTMuOTk3LTMuODA2LTcuMDQtNi44NTEtOS4xMzRsLTEuNDI5LTAuODU5Yy0wLjk1LTAuNzYtMi40NzUtMS41NjctNC41NjctMi40MjcgICBjLTIuMDk1LTAuODU5LTQuMjgxLTEuNDc1LTYuNTY3LTEuODU0bC03OC4yMjksMC41NjhjLTcuOTk0LDAtMTMuNDE4LDEuODExLTE2LjI3NCw1LjQyOGwtMS4xNDMsMS43MTEgICBDMC4yODgsMTQwLjE0NiwwLDE0MS42NjgsMCwxNDMuNzYzYzAsMi4wOTQsMC41NzEsNC42NjQsMS43MTQsNy43MDdjMTEuNDIsMjYuODQsMjMuODM5LDUyLjcyNSwzNy4yNTcsNzcuNjU5ICAgYzEzLjQxOCwyNC45MzQsMjUuMDc4LDQ1LjAxOSwzNC45NzMsNjAuMjM3YzkuODk3LDE1LjIyOSwxOS45ODUsMjkuNjAyLDMwLjI2NCw0My4xMTJjMTAuMjc5LDEzLjUxNSwxNy4wODMsMjIuMTc2LDIwLjQxMiwyNS45ODEgICBjMy4zMzMsMy44MTIsNS45NTEsNi42NjIsNy44NTQsOC41NjVsNy4xMzksNi44NTFjNC41NjgsNC41NjksMTEuMjc2LDEwLjA0MSwyMC4xMjcsMTYuNDE2ICAgYzguODUzLDYuMzc5LDE4LjY1NCwxMi42NTksMjkuNDA4LDE4Ljg1YzEwLjc1Niw2LjE4MSwyMy4yNjksMTEuMjI1LDM3LjU0NiwxNS4xMjZjMTQuMjc1LDMuOTA1LDI4LjE2OSw1LjQ3Miw0MS42ODQsNC43MTZoMzIuODM0ICAgYzYuNjU5LTAuNTc1LDExLjcwNC0yLjY2OSwxNS4xMzMtNi4yODNsMS4xMzYtMS40MzFjMC43NjQtMS4xMzYsMS40NzktMi45MDEsMi4xMzktNS4yNzZjMC42NjgtMi4zNzksMS01LDEtNy44NTEgICBjLTAuMTk1LTguMTgzLDAuNDI4LTE1LjU1OCwxLjg1Mi0yMi4xMjRjMS40MjMtNi41NjQsMy4wNDUtMTEuNTEzLDQuODU5LTE0Ljg0NmMxLjgxMy0zLjMzLDMuODU5LTYuMTQsNi4xMzYtOC40MTggICBjMi4yODItMi4yODMsMy45MDgtMy42NjYsNC44NjItNC4xNDJjMC45NDgtMC40NzksMS43MDUtMC44MDQsMi4yNzYtMC45OTljNC41NjgtMS41MjIsOS45NDQtMC4wNDgsMTYuMTM2LDQuNDI5ICAgYzYuMTg3LDQuNDczLDExLjk5LDkuOTk2LDE3LjQxOCwxNi41NmM1LjQyNSw2LjU3LDExLjk0MywxMy45NDEsMTkuNTU1LDIyLjEyNGM3LjYxNyw4LjE4NiwxNC4yNzcsMTQuMjcxLDE5Ljk4NSwxOC4yNzQgICBsNS43MDgsMy40MjZjMy44MTIsMi4yODYsOC43NjEsNC4zOCwxNC44NTMsNi4yODNjNi4wODEsMS45MDIsMTEuNDA5LDIuMzc4LDE1Ljk4NCwxLjQyN2w3My4wODctMS4xNCAgIGM3LjIyOSwwLDEyLjg1NC0xLjE5NywxNi44NDQtMy41NzJjMy45OTgtMi4zNzksNi4zNzMtNSw3LjEzOS03Ljg1MWMwLjc2NC0yLjg1NCwwLjgwNS02LjA5MiwwLjE0NS05LjcxMiAgIEM1NDYuNzgyLDQwNC4yNSw1NDYuMTE1LDQwMS43MjUsNTQ1LjQ1MSw0MDAuMjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" alt="Группа vk около IT тематики"> <p>Группа vk</p> </a> </li> <li> <a class="contact__item hover-hw" target="_blank" href="https://telegram.me/illuminationbot" title="бот автопостов из группы вк"> <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDE4OS40NzMgMTg5LjQ3MyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTg5LjQ3MyAxODkuNDczOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPHBhdGggZD0iTTE1Mi41MzEsMTc5LjQ3NmMtMS40OCwwLTIuOTUtMC40MzgtNC4yMTEtMS4yOTNsLTQ3LjY0MS0zMi4zMTZsLTI1LjU1MiwxOC4zODZjLTIuMDA0LDEuNDQxLTQuNTg3LDEuODA0LTYuOTE0LDAuOTcyICAgYy0yLjMyNC0wLjgzNC00LjA4OS0yLjc1OS00LjcxOS01LjE0NmwtMTIuODMtNDguNjIyTDQuODIxLDkzLjkyOGMtMi44ODYtMS4xMDQtNC44LTMuODY1LTQuODIxLTYuOTU1ICAgYy0wLjAyMS0zLjA5LDEuODU1LTUuODc3LDQuNzI3LTcuMDJsMTc0LjMxMi02OS4zNmMwLjc5MS0wLjMzNiwxLjYyOC0wLjUzLDIuNDcyLTAuNTgyYzAuMzAyLTAuMDE4LDAuNjA1LTAuMDE4LDAuOTA2LTAuMDAxICAgYzEuNzQ4LDAuMTA0LDMuNDY1LDAuODE2LDQuODA1LDIuMTNjMC4xMzksMC4xMzYsMC4yNzEsMC4yNzUsMC4zOTYsMC40MmMxLjExLDEuMjY4LDEuNzIsMi44MTQsMS44MzUsNC4zODkgICBjMC4wMjgsMC4zOTYsMC4wMjYsMC43OTctMC4wMDksMS4xOThjLTAuMDI0LDAuMjg2LTAuMDY1LDAuNTcxLTAuMTIzLDAuODU0TDE1OS44OTgsMTczLjM4Yy0wLjQ3MywyLjQ4LTIuMTYxLDQuNTU2LTQuNDkzLDUuNTIzICAgQzE1NC40OCwxNzkuMjg3LDE1My41MDMsMTc5LjQ3NiwxNTIuNTMxLDE3OS40NzZ6IE0xMDQuODYyLDEzMC41NzlsNDIuNDM3LDI4Ljc4NUwxNzAuMTkzLDM5LjI0bC04Mi42ODcsNzkuNTY2bDE3LjE1NiwxMS42MzggICBDMTA0LjczMSwxMzAuNDg3LDEwNC43OTcsMTMwLjUzMywxMDQuODYyLDEzMC41Nzl6IE02OS41MzUsMTI0LjE3OGw1LjY4MiwyMS41M2wxMi4yNDItOC44MDlsLTE2LjAzLTEwLjg3NCAgIEM3MC42ODQsMTI1LjUyMSw3MC4wNDYsMTI0Ljg5Myw2OS41MzUsMTI0LjE3OHogTTI4LjEzNiw4Ni43ODJsMzEuNDc4LDEyLjAzNWMyLjI1NSwwLjg2MiwzLjk1NywyLjc1OCw0LjU3Myw1LjA5MmwzLjk5MiwxNS4xMjkgICBjMC4xODMtMS43NDUsMC45NzQtMy4zODcsMi4yNTktNC42MjRMMTQ5LjIyNywzOC42TDI4LjEzNiw4Ni43ODJ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="бот автопостов из группы вк"> <p>Telegram-bot</p> </a> </li> <li> <a class="contact__item hover-hw" target="_blank" href="https://codepen.io/bulch" title="Песочница для всяких мелочей"> <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDMxLjY2NSAzMS42NjUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMxLjY2NSAzMS42NjU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMTYuODc4LDAuNDE1Yy0wLjg1NC0wLjU2NS0xLjk2OC0wLjU1Mi0yLjgwOSwwLjAzNEwxLjQ4NSw5LjIxNGMtMC42NzEsMC40NjgtMS4wNzEsMS4yMzMtMS4wNzEsMi4wNTJ2OS40NDQgICBjMCwwLjg0LDAuNDIxLDEuNjIzLDEuMTIyLDIuMDg2bDEyLjc5LDguNDU1YzAuODM2LDAuNTUzLDEuOTIyLDAuNTUzLDIuNzU4LDBsMTMuMDQ0LTguNjE4YzAuNy0wLjQ2MywxLjEyMi0xLjI0NiwxLjEyMi0yLjA4NiAgIHYtOS4yNzljMC0wLjgzOS0wLjQyMS0xLjYyMi0xLjEyMS0yLjA4NUwxNi44NzgsMC40MTV6IE0yNi42MjEsMTAuNjQ1bC00LjgyMSwzLjIzN2wtNC41MjEtMy4yODhMMTcuMjUsNC4xMjdMMjYuNjIxLDEwLjY0NXogICAgTTEzLjk3OSw0LjEzM3Y2LjMyOWwtNC42MzMsMy4yNGwtNC42MjEtMy4wOTlMMTMuOTc5LDQuMTMzeiBNMy40NTgsMTMuNzIybDIuOTkxLDIuMDA0bC0yLjk5MSwyLjA5M1YxMy43MjJ6IE0xNC4wNTgsMjcuMjE1ICAgbC05LjMzMS02LjI1OGw0LjY2MS0zLjI1OGw0LjY3LDMuMTMzVjI3LjIxNXogTTEyLjI4NiwxNS42NzRsMy4wMjEtMi4xMTNsMy41MTksMi4zMTNsLTMuMTE5LDIuMDk1TDEyLjI4NiwxNS42NzR6IE0xNy4zNTQsMjcuMjE1ICAgVjIwLjgzbDQuNDYzLTIuOTkxbDQuODA1LDMuMTU5TDE3LjM1NCwyNy4yMTV6IE0yNy45NTQsMTcuOTI3bC0zLjE2OC0yLjA4MmwzLjE2OC0yLjEyNVYxNy45Mjd6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Песочница для всяких мелочей"> <p>Codepen</p> </a> </li> <li> <a class="contact__item hover-hw" target="_blank" href="https://github.com/bulch" title="Немного гитхаба"> <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDQ3NS4wODQgNDc1LjA4NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDc1LjA4NCA0NzUuMDg0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTQzNi4yNDQsMTQ2Ljc1MmM1LjE0LTE1LjQyMiw3LjcxMy0zMS40MDksNy43MTMtNDcuOTY3YzAtMjIuMDgtNC44NTktNDIuODI4LTE0LjU2NC02Mi4yNDIgICAgYy0yMC4zNjIsMC0zOC4zNDksMy43MTUtNTMuOTYxLDExLjEzNmMtMTUuNjA0LDcuNDIzLTMzLjQsMTguOTM4LTUzLjM3OSwzNC41NDVjLTI1LjEyMi02LjA5LTUxLjc3Ny05LjEzNS03OS45NDEtOS4xMzUgICAgYy0zMC44MzcsMC02MC4yNDUsMy4zMzMtODguMjIzLDkuOTk0Yy0yMC4zNjQtMTUuOTktMzguMzUxLTI3Ljc0LTUzLjk1OS0zNS4yNmMtMTUuNjA4LTcuNTItMzMuNjg5LTExLjI3OS01NC4yNDctMTEuMjc5ICAgIGMtOS43MDcsMTkuNDE0LTE0LjU2LDQwLjE2My0xNC41Niw2Mi4yNDJjMCwxNi43NTEsMi41NjgsMzIuOTMsNy43MDgsNDguNTM1QzEyLjk0MiwxNzcuNTg3LDAsMjE1LjI3MiwwLDI2MC4zODMgICAgYzAsMzkuNTk1LDUuODk4LDcxLjA5MiwxNy43MDEsOTQuNTA3YzYuMjgzLDEyLjM2NywxNC40NjUsMjMuMzEyLDI0LjU1NCwzMi44MzJjMTAuMDg1LDkuNTE0LDIxLjYwMSwxNy4yMjgsMzQuNTQ1LDIzLjEzICAgIGMxMi45NDYsNS44OTYsMjUuOTgxLDEwLjgwMSwzOS4xMTYsMTQuNjk5YzEzLjEzNCwzLjksMjcuNjQ2LDYuNzU4LDQzLjU0LDguNTU5YzE1Ljg5MywxLjgxNiwyOS45MywzLjAwNCw0Mi4xMTEsMy41NzkgICAgYzEyLjE4MSwwLjU2NCwyNS42OTMsMC44NTMsNDAuNTQ0LDAuODUzYzE3LjUwOCwwLDMzLjM5Ni0wLjQzMiw0Ny42NzgtMS4yODNjMTQuMjc3LTAuODU1LDMwLjU5NC0yLjk1Myw0OC45NjQtNi4yNzYgICAgYzE4LjM2Ny0zLjMzMywzNC41NDctNy44NTcsNDguNTQtMTMuNTY1YzEzLjk5LTUuNzA4LDI3LjQxMi0xMy44OTUsNDAuMjU5LTI0LjU1MWMxMi44NDctMTAuNjYzLDIyLjg4NC0yMy4zMTgsMzAuMTIxLTM3Ljk3NiAgICBjMTEuNjA0LTIzLjYwMywxNy40MTItNTUuMTA3LDE3LjQxMi05NC41MDdDNDc1LjA3OCwyMTUuMDgyLDQ2Mi4xMzUsMTc3LjIwNiw0MzYuMjQ0LDE0Ni43NTJ6IE00MDEuOTk1LDM1NC40NTUgICAgYy02LjA5MiwxMi40NzEtMTMuODAyLDIyLjI2NS0yMy4xMjcsMjkuNDFjLTkuMzI5LDcuMTM5LTIwLjkzOCwxMi44NDctMzQuODMxLDE3LjEzNWMtMTMuOSw0LjI4MS0yNy4yMTcsNy4wODctMzkuOTcxLDguNDE1ICAgIGMtMTIuNzU4LDEuMzM0LTI2LjkzMywxLjk5OC00Mi41NDUsMS45OThoLTQ3Ljk2NmMtMTUuNjA3LDAtMjkuNzktMC42NjQtNDIuNTQxLTEuOTk4Yy0xMi43NTItMS4zMjgtMjYuMDc1LTQuMTM0LTM5Ljk3MS04LjQxNSAgICBjLTEzLjg5MS00LjI4OC0yNS41LTkuOTk2LTM0LjgyOS0xNy4xMzVjLTkuMzI5LTcuMTQ2LTE3LjAzNy0xNi45MzktMjMuMTI4LTI5LjQxYy02LjA5LTEyLjQ3MS05LjEzNi0yNy4wNzYtOS4xMzYtNDMuODI0ICAgIGMwLTIyLjg0Nyw2LjU2Ny00Mi4yNjQsMTkuNzAyLTU4LjI0NWMxMy4xMzQtMTUuOTksMzAuOTI5LTIzLjk4Miw1My4zODctMjMuOTgyYzguMTg4LDAsMjYuNzQ2LDEuOTk3LDU1LjY3Nyw1Ljk5NSAgICBjMTMuNTEzLDIuMDkzLDI4LjQ1NiwzLjE0LDQ0LjgyMywzLjE0YzE2LjM3MiwwLDMxLjMxMy0xLjA0NCw0NC44MjQtMy4xNGMyOS4zMTctMy45OTksNDcuODY5LTUuOTk1LDU1LjY3OC01Ljk5NSAgICBjMjIuNDU3LDAsNDAuMjUyLDcuOTk2LDUzLjM4NiwyMy45ODJjMTMuMTM1LDE1Ljk4OCwxOS42OTgsMzUuMzk4LDE5LjY5OCw1OC4yNDUgICAgQzQxMS4xMjUsMzI3LjM4Miw0MDguMDc5LDM0MS45OTUsNDAxLjk5NSwzNTQuNDU1eiIgZmlsbD0iIzAwMDAwMCIvPgoJCTxwYXRoIGQ9Ik0xNjYuODc1LDI2NS41MmMtNS44MDYtNi40NzUtMTIuNzAzLTkuNzEyLTIwLjY5OS05LjcxMmMtNy45OTgsMC0xNC44OTYsMy4yNDEtMjAuNzAxLDkuNzEyICAgIGMtNS44MDIsNi40NjgtOS44OTcsMTMuNzAzLTEyLjI3NSwyMS42ODljLTIuMzgzLDguMDAyLTMuNTcxLDE1LjgwNC0zLjU3MSwyMy40MjJjMCw3LjYxLDEuMTkxLDE1LjQxMywzLjU3MSwyMy40MTQgICAgYzIuMzc1LDcuOTkxLDYuNDY4LDE1LjIyMiwxMi4yNzUsMjEuNjg5YzUuODA4LDYuNDc1LDEyLjcwMyw5LjcxMywyMC43MDEsOS43MTNjNy45OTYsMCwxNC44OTYtMy4yNDQsMjAuNjk5LTkuNzEzICAgIGM1LjgwNC02LjQ2OCw5Ljg5Ny0xMy42OTgsMTIuMjc1LTIxLjY4OWMyLjM4LTguMDAxLDMuNTcxLTE1LjgwNCwzLjU3MS0yMy40MTRjMC03LjYxMS0xLjE4OC0xNS40Mi0zLjU3MS0yMy40MjIgICAgQzE3Ni43NzEsMjc5LjIyNiwxNzIuNjgyLDI3MS45OTQsMTY2Ljg3NSwyNjUuNTJ6IiBmaWxsPSIjMDAwMDAwIi8+CgkJPHBhdGggZD0iTTM0OS42MDEsMjY1LjUyYy01LjgwNC02LjQ3NS0xMi43MDMtOS43MTItMjAuNjk3LTkuNzEyYy03Ljk5MSwwLTE0Ljg5NCwzLjI0MS0yMC43MDEsOS43MTIgICAgYy01LjgwNCw2LjQ2OC05Ljg5NiwxMy43MDMtMTIuMjcxLDIxLjY4OWMtMi4zODUsOC4wMDItMy41NzYsMTUuODA0LTMuNTc2LDIzLjQyMmMwLDcuNjEsMS4xOTEsMTUuNDEzLDMuNTc2LDIzLjQxNCAgICBjMi4zNzUsNy45OTEsNi40NjgsMTUuMjIyLDEyLjI3MSwyMS42ODljNS44MDgsNi40NzUsMTIuNzEsOS43MTMsMjAuNzAxLDkuNzEzYzcuOTk0LDAsMTQuODk0LTMuMjQ0LDIwLjY5Ny05LjcxMyAgICBjNS44MDEtNi40NjgsOS44OTYtMTMuNjk4LDEyLjI3OC0yMS42ODljMi4zNzktOC4wMDEsMy41NjktMTUuODA0LDMuNTY5LTIzLjQxNGMwLTcuNjExLTEuMTktMTUuNDItMy41NjktMjMuNDIyICAgIEMzNTkuNDk4LDI3OS4yMjYsMzU1LjQwMiwyNzEuOTk0LDM0OS42MDEsMjY1LjUyeiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" alt="Немного гитхаба"> <p>Github</p> </a> </li> </ul> </div> </div> </div> <div class="site__footer_col"> </div> <div class="site__footer_col"> </div> <div class="site__footer_col"> <div class="site__project"> <div class="row"> <h2>About project</h2> </div> <div class="row"> <p>Сайт создан с помощью генератора статических сайтов <a href="https://jekyllrb.com/">Jekyll</a>. Весь код размещён на <a href="https://github.com/bulch/bulch.github.io" target="_blank">Github</a>.</p> </div> </div> </div> </footer> <script type="text/javascript">!function(e,t,a){(t[a]=t[a]||[]).push(function(){try{t.yaCounter40073690=new Ya.Metrika2({id:40073690,clickmap:!0,trackLinks:!0,accurateTrackBounce:!0,webvisor:!0,trackHash:!0})}catch(e){}});var c=e.getElementsByTagName("script")[0],n=e.createElement("script"),r=function(){c.parentNode.insertBefore(n,c)};n.type="text/javascript",n.async=!0,n.src="https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js","[object Opera]"==t.opera?e.addEventListener("DOMContentLoaded",r,!1):r()}(document,window,"yandex_metrika_callbacks2");</script> <noscript><div><img src="https://mc.yandex.ru/watch/40073690" style="position:absolute; left:-9999px;" alt=""/></div></noscript> </body> </html>
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4A4A4A">
+  <title>bulch</title>
+  <meta name="description" content="bulch - Фронтенд и веб-разработка">
+  <meta name="yandex-verification" content="7f713c6d07f116b4" />
+  <meta property="og:title" content=" bulch " />
+<meta property="og:description" content="bulch - Фронтенд и веб-разработка" />
+<meta property="og:site_name" content="bulch" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:url" content="https://bulch.ru" />
+<meta property="og:image" content="https://bulch.ru/static/img/terminal.png" />
+<meta property="og:image:width" content="345" />
+<meta property="og:image:height" content="136" />
+
+  <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@bulch_design" />
+<meta name="twitter:creator" content="@bulch_design" />
+<meta property="og:url" content="https://bulch.ru" />
+<meta property="og:title" content=" bulch " />
+<meta property="og:description" content="bulch - Фронтенд и веб-разработка" />
+<meta property="og:image" content="https://bulch.ru/static/img/terminal.png" />
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://bulch.ru/static/img/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://bulch.ru/static/img/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://bulch.ru/static/img/favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://bulch.ru/static/img/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://bulch.ru/static/img/favicon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://bulch.ru/static/img/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://bulch.ru/static/img/favicon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://bulch.ru/static/img/favicon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://bulch.ru/static/img/favicon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="bulch"/>
+<meta name="msapplication-TileColor" content="#4A4A4A" />
+<meta name="msapplication-TileImage" content="https://bulch.ru/static/img/favicon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://bulch.ru/static/img/favicon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://bulch.ru/static/img/favicon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://bulch.ru/static/img/favicon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://bulch.ru/static/img/favicon/mstile-310x310.png" />
+
+  <style media="screen">
+  /* reset css  */
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+a {
+  cursor: pointer;
+}
+/* / reset css */
+/* style  */
+html {
+  font-size: 14px;
+}
+body {
+  background: #4A4A4A;
+  -webkit-user-select: none;
+  font-family: 'Jura', sans-serif;
+  cursor: default;
+  color: white;
+  padding: 2em;
+}
+
+body  h2 {
+  margin-top: 2em;
+  margin-bottom: 1em
+}
+
+.btn-green-color{
+  background: #1DB954;
+}
+.site__header {
+  text-align: center;
+}
+.glitch {
+  color: white;
+  font-size: 100px;
+  position: relative;
+  margin: 0 auto;
+  -webkit-user-select: none;
+  font-family: 'VT323', monospace;
+  cursor: default;
+  display: inline-block;
+}
+.glitch:hover {
+  cursor: pointer;
+}
+
+@keyframes noise-anim {
+  0% {
+    clip: rect(72px, 9999px, 7px, 0);
+  }
+  5% {
+    clip: rect(72px, 9999px, 87px, 0);
+  }
+  10% {
+    clip: rect(71px, 9999px, 90px, 0);
+  }
+  15% {
+    clip: rect(46px, 9999px, 91px, 0);
+  }
+  20% {
+    clip: rect(77px, 9999px, 69px, 0);
+  }
+  25% {
+    clip: rect(39px, 9999px, 52px, 0);
+  }
+  30% {
+    clip: rect(31px, 9999px, 30px, 0);
+  }
+  35% {
+    clip: rect(84px, 9999px, 25px, 0);
+  }
+  40% {
+    clip: rect(24px, 9999px, 25px, 0);
+  }
+  45% {
+    clip: rect(23px, 9999px, 44px, 0);
+  }
+  50% {
+    clip: rect(55px, 9999px, 75px, 0);
+  }
+  55% {
+    clip: rect(93px, 9999px, 20px, 0);
+  }
+  60% {
+    clip: rect(11px, 9999px, 51px, 0);
+  }
+  65% {
+    clip: rect(4px, 9999px, 18px, 0);
+  }
+  70% {
+    clip: rect(81px, 9999px, 6px, 0);
+  }
+  75% {
+    clip: rect(54px, 9999px, 22px, 0);
+  }
+  80% {
+    clip: rect(33px, 9999px, 14px, 0);
+  }
+  85% {
+    clip: rect(45px, 9999px, 22px, 0);
+  }
+  90% {
+    clip: rect(30px, 9999px, 83px, 0);
+  }
+  95% {
+    clip: rect(63px, 9999px, 85px, 0);
+  }
+  100% {
+    clip: rect(36px, 9999px, 27px, 0);
+  }
+}
+.glitch:after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: white;
+  background: #4A4A4A;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
+}
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(76px, 9999px, 48px, 0);
+  }
+  5% {
+    clip: rect(83px, 9999px, 44px, 0);
+  }
+  10% {
+    clip: rect(26px, 9999px, 33px, 0);
+  }
+  15% {
+    clip: rect(21px, 9999px, 60px, 0);
+  }
+  20% {
+    clip: rect(75px, 9999px, 97px, 0);
+  }
+  25% {
+    clip: rect(39px, 9999px, 32px, 0);
+  }
+  30% {
+    clip: rect(46px, 9999px, 70px, 0);
+  }
+  35% {
+    clip: rect(60px, 9999px, 49px, 0);
+  }
+  40% {
+    clip: rect(84px, 9999px, 64px, 0);
+  }
+  45% {
+    clip: rect(92px, 9999px, 45px, 0);
+  }
+  50% {
+    clip: rect(66px, 9999px, 44px, 0);
+  }
+  55% {
+    clip: rect(6px, 9999px, 16px, 0);
+  }
+  60% {
+    clip: rect(57px, 9999px, 55px, 0);
+  }
+  65% {
+    clip: rect(49px, 9999px, 96px, 0);
+  }
+  70% {
+    clip: rect(77px, 9999px, 72px, 0);
+  }
+  75% {
+    clip: rect(76px, 9999px, 80px, 0);
+  }
+  80% {
+    clip: rect(91px, 9999px, 43px, 0);
+  }
+  85% {
+    clip: rect(24px, 9999px, 25px, 0);
+  }
+  90% {
+    clip: rect(67px, 9999px, 56px, 0);
+  }
+  95% {
+    clip: rect(12px, 9999px, 14px, 0);
+  }
+  100% {
+    clip: rect(91px, 9999px, 87px, 0);
+  }
+}
+.glitch:before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  color: white;
+  background: #4A4A4A;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
+.site__portfolio ul {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  list-style: none;
+}
+.site__portfolio ul li {
+  margin: 1px;
+  padding: 15px 10px;
+  background: #191919;
+}
+.site__tags ul li:hover {
+  background: #222;
+}
+.site__tags {
+  width: 100%;
+}
+ul.site__portfolio--tech,
+.site__tags ul  {
+  display: block;
+  grid-template-columns: auto;
+  list-style-type: none;
+}
+.site__tags ul li,
+.site__portfolio li> ul li,
+.site__portfolio--tech li {
+  background: #191919;
+  padding: 5px 10px;
+  margin: 1px;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+.hover-hw h1 {
+  display: inline-block;
+}
+.contact {
+  list-style-type: none;
+}
+.contact li {
+  display: inline-block;
+  margin: auto 15px;
+}
+.contact__item {
+  color: #fff;
+  background: #808080;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s;
+}
+.contact__item img {
+  width: 24px;
+}
+.contact__item:hover img+p {
+  visibility: visible;
+  bottom: 36px;
+  z-index: 2;
+}
+.contact__item p {
+  visibility: hidden;
+  position: absolute;
+  width: max-content;
+  z-index: -1;
+  background: #191919;
+  padding: 5px 10px;
+  bottom: -10px;
+  transition: all .5s cubic-bezier(0.6, -0.6, 0.2, 1.5);
+}
+.contact__item--cer {
+  width: 36px;
+  height: 36px;
+  margin: 10px;
+}
+
+.site__footer {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+li.hover-hw article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.site__portfolio .list_cer li {
+  background: transparent;
+}
+
+</style>
+<style>
+  /* ======================================
+
+    MediaQuery-Reporter Styles
+
+========================================= */
+
+/* body:after {
+    content: "less than 320px";
+    font-size: 300%;
+    font-weight: bold;
+    position: fixed;
+    bottom: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: hsla(1,60%,40%,0.7);
+    color: #fff;
+} */
+@media only screen and (min-width: 320px) {
+    /* body:after {
+        content: "320 to 480px";
+        background-color: hsla(90,60%,40%,0.7);
+    } */
+    .site__portfolio ul {
+      grid-template-columns: 100%;
+    }
+}
+@media only screen and (min-width: 480px) {
+    /* body:after {
+        content: "480 to 768px";
+        background-color: hsla(180,60%,40%,0.7);
+    } */
+    .site__portfolio ul {
+      grid-template-columns: 50% 50%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* body:after {
+        content: "768 to 1024px";
+        background-color: hsla(270,60%,40%,0.7);
+    } */
+    .site__portfolio ul {
+      grid-template-columns: 33% 33% 33%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    /* body:after {
+        content: "1024 and up";
+        background-color: hsla(360,60%,40%,0.7);
+    } */
+    .site__portfolio ul {
+      grid-template-columns: 25% 25% 25% 25% ;
+    }
+}
+
+</style>
+<!-- // Load CSS & WebFonts Main Function -->
+<script type="text/javascript">
+! function(e) {
+    "use strict";
+
+    function t(e, t, n) {
+        e.addEventListener ? e.addEventListener(t, n, !1) : e.attachEvent && e.attachEvent("on" + t, n)
+    }
+
+    function n(t, n) {
+        return e.localStorage && localStorage[t + "_content"] && localStorage[t + "_file"] === n
+    }
+
+    function a(t, a) {
+        if (e.localStorage && e.XMLHttpRequest) n(t, a) ? o(localStorage[t + "_content"]) : l(t, a);
+        else {
+            var s = r.createElement("link");
+            s.href = a, s.id = t, s.rel = "stylesheet", s.type = "text/css", r.getElementsByTagName("head")[0].appendChild(s), r.cookie = t
+        }
+    }
+
+    function l(e, t) {
+        var n = new XMLHttpRequest;
+        n.open("GET", t, !0), n.onreadystatechange = function() {
+            4 === n.readyState && 200 === n.status && (o(n.responseText), localStorage[e + "_content"] = n.responseText, localStorage[e + "_file"] = t)
+        }, n.send()
+    }
+
+    function o(e) {
+        var t = r.createElement("style");
+        t.setAttribute("type", "text/css"), r.getElementsByTagName("head")[0].appendChild(t), t.styleSheet ? t.styleSheet.cssText = e : t.innerHTML = e
+    }
+    var r = e.document;
+    e.loadCSS = function(e, t, n) {
+        var a, l = r.createElement("link");
+        if (t) a = t;
+        else {
+            var o;
+            o = r.querySelectorAll ? r.querySelectorAll("style,link[rel=stylesheet],script") : (r.body || r.getElementsByTagName("head")[0]).childNodes, a = o[o.length - 1]
+        }
+        var s = r.styleSheets;
+        l.rel = "stylesheet", l.href = e, l.media = "only x", a.parentNode.insertBefore(l, t ? a : a.nextSibling);
+        var c = function(e) {
+            for (var t = l.href, n = s.length; n--;)
+                if (s[n].href === t) return e();
+            setTimeout(function() {
+                c(e)
+            })
+        };
+        return l.onloadcssdefined = c, c(function() {
+            l.media = n || "all"
+        }), l
+    }, e.loadLocalStorageCSS = function(l, o) {
+        n(l, o) || r.cookie.indexOf(l) > -1 ? a(l, o) : t(e, "load", function() {
+            a(l, o)
+        })
+    }
+}(this);
+</script>
+<!-- // Load CSS Start -->
+<script type="text/javascript">
+  // loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=Bree+Serif" );
+  loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=VT323" );
+  loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=Jura" );
+  loadCSS( "static/css/hw.css?ver=1.0.0", false, "all" );
+</script>
+<!-- // Load CSS End -->
+
+<!-- // Load CSS Compiled without JS -->
+<noscript>
+  <link href="static/css/hw.css?ver=1.0.0" rel="stylesheet" type="text/css">
+</noscript>
+
+</head>
+
+  <!--[if lt IE 9]>
+  <script>
+    var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
+    for (var i = 0; i < e.length; i++) {
+      document.createElement(e[i]);
+    }
+  </script>
+<![endif]-->
+
+<body>
+  <header class="site__header">
+	<a href="https://bulch.ru/">
+		<div class="glitch" data-text="hello">hello</div>
+	</a>
+</header>
+
+  <main class="page-content">
+    <div class="site__portfolio">
+  <div class="row">
+    <h2>My work: </h2>
+  </div>
+  <div class="row">
+    <ul>
+
+      
+      
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="https://bulch.ru/" title="bulch.ru" target="_blank" rel="nofollow">
+                <h1>
+                  Bulch.ru
+                </h1>
+              </a>
+            </noindex>
+            <p>мой личный сайт )</p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>github</li><li>jukyll</li>
+            </ul>
+            <time pubdate datetime="2018-03-01">
+              2018
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://tort.artcake64.ru/" title="Кондитерские изделия - artcake64 " target="_blank" rel="nofollow">
+                <h1>
+                  Кондитерские изделия - artcake64 
+                </h1>
+              </a>
+            </noindex>
+            <p>Сайт на тильде  для продажи тортиков и всяких вкусностей</p>
+            <ul class="site__portfolio--tech">
+              <li>tilda</li>
+            </ul>
+            <time pubdate datetime="2017-12-08">
+              2017
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://лидерыправа.рф" title="лидерыправа.рф" target="_blank" rel="nofollow">
+                <h1>
+                  Лидерыправа.рф
+                </h1>
+              </a>
+            </noindex>
+            <p>Сайт на тильде. Регистрация в конкурсе лидерыправа</p>
+            <ul class="site__portfolio--tech">
+              <li>tilda</li>
+            </ul>
+            <time pubdate datetime="2017-11-16">
+              2017
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://finsp.ru/" title="Услуги участникам госконтрактов Банковские гарантии" target="_blank" rel="nofollow">
+                <h1>
+                  Услуги участникам госконтрактов банковские гарантии
+                </h1>
+              </a>
+            </noindex>
+            <p>Сайт с калькулятором расчета стоимости гарантий по 44-ФЗ,  223-ФЗ,  615-ПП (185-ФЗ)</p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+            </ul>
+            <time pubdate datetime="2017-10-20">
+              2017
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://sarugol.ru" title="Русский уголь" target="_blank" rel="nofollow">
+                <h1>
+                  Русский уголь
+                </h1>
+              </a>
+            </noindex>
+            <p>Красивый сайт с калькулятором стоимости и возможностью предварительного заказа древесного угля</p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li>
+            </ul>
+            <time pubdate datetime="2017-03-01">
+              2017
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="https://ddu.yagofarov.ru/" title="Взыскание неустойки с застройщиков - Адвокат Ягофаров" target="_blank" rel="nofollow">
+                <h1>
+                  Взыскание неустойки с застройщиков - адвокат ягофаров
+                </h1>
+              </a>
+            </noindex>
+            <p>Посадочная страница с небольшим калькулятором неустойки. Сделан для 3 городов. </p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
+            </ul>
+            <time pubdate datetime="2017-02-20">
+              2017
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="https://bfl.yagofarov.ru/" title="Банкротство физических лиц -  Адвокат Ягофаров" target="_blank" rel="nofollow">
+                <h1>
+                  Банкротство физических лиц -  адвокат ягофаров
+                </h1>
+              </a>
+            </noindex>
+            <p>Посадочная страница для банкротов. Много полезной информации и возможность отправить заявку. Сделан для 3 городов.</p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
+            </ul>
+            <time pubdate datetime="2017-02-10">
+              2017
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="https://advokatyagofarov.ru/" title="Адвокат Ягофаров сайт визитка" target="_blank" rel="nofollow">
+                <h1>
+                  Адвокат ягофаров сайт визитка
+                </h1>
+              </a>
+            </noindex>
+            <p>Личный сайт визитка адвоката</p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
+            </ul>
+            <time pubdate datetime="2017-01-20">
+              2017
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="https://yagofarov.ru/" title="Адвокат Ягофаров корпоративный сайт" target="_blank" rel="nofollow">
+                <h1>
+                  Адвокат ягофаров корпоративный сайт
+                </h1>
+              </a>
+            </noindex>
+            <p>Большой корпоративный сайт для адвоката с большим количеством правовой информации и опытом компании</p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+            </ul>
+            <time pubdate datetime="2016-12-10">
+              2016
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://avon-centre.ru/" title="Официальная регистрация Представителей Avon" target="_blank" rel="nofollow">
+                <h1>
+                  Официальная регистрация представителей avon
+                </h1>
+              </a>
+            </noindex>
+            <p>Стань представителем AVON прямо сейчас!</p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
+            </ul>
+            <time pubdate datetime="2016-11-27">
+              2016
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://upravlyayushchiy.ru" title="Лига арбитражных управляющих" target="_blank" rel="nofollow">
+                <h1>
+                  Лига арбитражных управляющих
+                </h1>
+              </a>
+            </noindex>
+            <p>Клон сайт Кредитный Адвокат находятся под одной cmf modx </p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+            </ul>
+            <time pubdate datetime="2016-11-16">
+              2016
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="https://hamam64.ru/" title="Строительство хаммамов, бань, бассейнов и спа-зон в Саратове и области" target="_blank" rel="nofollow">
+                <h1>
+                  Строительство хаммамов, бань, бассейнов и спа-зон в саратове и области
+                </h1>
+              </a>
+            </noindex>
+            <p>c 2016 до 2018 года сайт потерпел 3 редизайна</p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>gulp</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+            </ul>
+            <time pubdate datetime="2016-10-20">
+              2016
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://kreditadvokat.ru" title="Кредитный Адвокат" target="_blank" rel="nofollow">
+                <h1>
+                  Кредитный адвокат
+                </h1>
+              </a>
+            </noindex>
+            <p>Корпоративный сайт для компании адвокатов</p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+            </ul>
+            <time pubdate datetime="2016-10-1">
+              2016
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://azbukabankrotstva.ru/" title="Федеральный проект по оказанию помощи должникам «Школа банкротства»" target="_blank" rel="nofollow">
+                <h1>
+                  Федеральный проект по оказанию помощи должникам «школа банкротства»
+                </h1>
+              </a>
+            </noindex>
+            <p>Посадочная страница, для продажи  книги инструкции по самостоятельному проведению процедуры банкротства физического лица </p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li>
+            </ul>
+            <time pubdate datetime="2016-09-15">
+              2016
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://vbankrotstve.ru" title="Федеральная Экспертная Служба" target="_blank" rel="nofollow">
+                <h1>
+                  Федеральная экспертная служба
+                </h1>
+              </a>
+            </noindex>
+            <p>Сайт ФЭС по банкротству. С уклоном на статьи и новости банкротства. Не обновляется</p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+            </ul>
+            <time pubdate datetime="2016-08-20">
+              2016
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://2016.youcon.ru/" title="Юкон-2016" target="_blank" rel="nofollow">
+                <h1>
+                  Юкон-2016
+                </h1>
+              </a>
+            </noindex>
+            <p>Осенью 2016 года в Саратове состоялась ИТ-конференция! Посадочная страница, страница регистрации на конференцию. </p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>js</li><li>jquery</li>
+            </ul>
+            <time pubdate datetime="2016-05-09">
+              2016
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://smogmag.ru/" title="Smog — издание об удобном Саратове" target="_blank" rel="nofollow">
+                <h1>
+                  Smog — издание об удобном саратове
+                </h1>
+              </a>
+            </noindex>
+            <p>Сайт издания, для многих пользователей с модерацией, визуальными редакторами и кучей плагинов для вордпресс</p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>js</li><li>jquery</li><li>php</li><li>wordpress</li>
+            </ul>
+            <time pubdate datetime="2015-03-14">
+              2015
+            </time>
+          </article>
+        </li>
+    
+        <li class="hover-hw">
+          <article>
+            <noindex>
+              <a href="http://vmfsaratov.ru" title="2015 РОО «СОЮЗ ВОЕННЫХ МОРЯКОВ» Саратовское областное отделение" target="_blank" rel="nofollow">
+                <h1>
+                  2015 роо «союз военных моряков» саратовское областное отделение
+                </h1>
+              </a>
+            </noindex>
+            <p>Сайт для фотоотчетов и новостной ленты </p>
+            <ul class="site__portfolio--tech">
+              <li>html</li><li>css</li><li>js</li><li>jquery</li><li>php</li><li>wordpress</li>
+            </ul>
+            <time pubdate datetime="2015-02-22">
+              2015
+            </time>
+          </article>
+        </li>
+    
+    </ul>
+  </div>
+</div>
+
+    <div class="site__tags">
+  <div class="row">
+    <h2>Key: </h2>
+  </div>
+  <div class="row">
+    <ul>
+      
+        
+        <li>html</li>
+      
+        
+        <li>pug/jade</li>
+      
+        
+        <li>haml</li>
+      
+        
+        <li>css</li>
+      
+        
+        <li>sass/scss</li>
+      
+        
+        <li>stylus</li>
+      
+        
+        <li>less</li>
+      
+        
+        <li>js</li>
+      
+        
+        <li>jquery</li>
+      
+        
+        <li>zepto</li>
+      
+        
+        <li>gulp/Grunt</li>
+      
+        
+        <li>webpack</li>
+      
+        
+        <li>bootstrap</li>
+      
+        
+        <li>foundation</li>
+      
+        
+        <li>php</li>
+      
+        
+        <li>xml</li>
+      
+        
+        <li>json</li>
+      
+        
+        <li>yaml/yml</li>
+      
+        
+        <li>MySQL</li>
+      
+        
+        <li>PhpMyAdmin</li>
+      
+        
+        <li>bash</li>
+      
+        
+        <li>Markdown</li>
+      
+        
+        <li>Apache HTTP Server</li>
+      
+        
+        <li>htaccess</li>
+      
+        
+        <li>nginx</li>
+      
+        
+        <li>XAMPP</li>
+      
+        
+        <li>modx</li>
+      
+        
+        <li>wordpress</li>
+      
+        
+        <li>joomla</li>
+      
+        
+        <li>git</li>
+      
+        
+        <li>github</li>
+      
+        
+        <li>jekyll</li>
+      
+        
+        <li>CPanel </li>
+      
+        
+        <li>ISP-Manager</li>
+      
+        
+        <li>Adobe Photoshop</li>
+      
+        
+        <li>GIMP</li>
+      
+        
+        <li>Sublime Text</li>
+      
+        
+        <li>Atom</li>
+      
+        
+        <li>Debian</li>
+      
+        
+        <li>centos</li>
+      
+        
+        <li>ubuntu</li>
+      
+        
+        <li>windows</li>
+      
+        
+        <li>ssl</li>
+      
+        
+        <li>dns</li>
+      
+        
+        <li>node</li>
+      
+        
+        <li>npm</li>
+      
+        
+        <li>Bower</li>
+      
+    </ul>
+  </div>
+</div>
+
+    <!--
+name , description ,  url ,  img_path
+-->
+
+<div class="site__portfolio site_cer">
+  <div class="row">
+    <h2>Certificate: </h2>
+  </div>
+  <div class="row">
+    <ul>
+      
+        
+
+          <li class="hover-hw">
+            <article>
+              <noindex>
+                <a href="http://sertificat.templatemonster.ru/certification/kornev-bronislav-10243/" title="Веб-разработчик по продукту JOOMLA - Успешно прошел сертификацию от компании templatemonster по продукту Joomla" target="_blank" rel="nofollow">
+                  <h1>
+                    Веб-разработчик по продукту JOOMLA
+                  </h1>
+                </a>
+              </noindex>
+              <p>Успешно прошел сертификацию от компании templatemonster по продукту Joomla</p>
+              <ul class="list_cer">
+                <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="http://sertificat.templatemonster.ru/wp-content/uploads/2017/03/--------------------------------10243.jpg" title="Веб-разработчик по продукту JOOMLA - Успешно прошел сертификацию от компании templatemonster по продукту Joomla">
+                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
+                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact__item contact__item--cer hover-hw" target="_blank" href="http://sertificat.templatemonster.ru/certification/kornev-bronislav-10243/" title="Веб-разработчик по продукту JOOMLA - Успешно прошел сертификацию от компании templatemonster по продукту Joomla">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти на по внешний ссылки">
+                      <p style=" background: rgba(39, 39, 39, 0.7); ">Перейти на по внешний ссылки</p>
+                    </a>
+                </li>
+              </ul>
+
+
+            </article>
+          </li>
+      
+        
+
+          <li class="hover-hw">
+            <article>
+              <noindex>
+                <a href="http://sertificat.templatemonster.ru/certification/kornev-bronislav-10066/" title="Веб-разработчик по продукту WORDPRESS - Успешно прошел сертификацию от компании templatemonster по продукту WORDPRESS" target="_blank" rel="nofollow">
+                  <h1>
+                    Веб-разработчик по продукту WORDPRESS
+                  </h1>
+                </a>
+              </noindex>
+              <p>Успешно прошел сертификацию от компании templatemonster по продукту WORDPRESS</p>
+              <ul class="list_cer">
+                <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="http://sertificat.templatemonster.ru/wp-content/uploads/2017/03/--------------------------------10066.jpg" title="Веб-разработчик по продукту WORDPRESS - Успешно прошел сертификацию от компании templatemonster по продукту WORDPRESS">
+                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
+                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact__item contact__item--cer hover-hw" target="_blank" href="http://sertificat.templatemonster.ru/certification/kornev-bronislav-10066/" title="Веб-разработчик по продукту WORDPRESS - Успешно прошел сертификацию от компании templatemonster по продукту WORDPRESS">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти на по внешний ссылки">
+                      <p style=" background: rgba(39, 39, 39, 0.7); ">Перейти на по внешний ссылки</p>
+                    </a>
+                </li>
+              </ul>
+
+
+            </article>
+          </li>
+      
+    </ul>
+  </div>
+</div>
+
+  </main>
+  <footer class="site__footer">
+  <div class="site__footer_col">
+    <div class="site__contact">
+  <div class="row">
+    <h2>Contacts: </h2>
+  </div>
+  <div class="row">
+    <ul class="contact">
+      
+        
+        <li>
+          <a class="contact__item hover-hw" target="_blank" href="https://vk.com/illumination_it" title="Группа vk около IT тематики">
+            <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDU0OC4zNTggNTQ4LjM1OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTQ4LjM1OCA1NDguMzU4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTU0NS40NTEsNDAwLjI5OGMtMC42NjQtMS40MzEtMS4yODMtMi42MTgtMS44NTgtMy41NjljLTkuNTE0LTE3LjEzNS0yNy42OTUtMzguMTY3LTU0LjUzMi02My4xMDJsLTAuNTY3LTAuNTcxICAgbC0wLjI4NC0wLjI4bC0wLjI4Ny0wLjI4N2gtMC4yODhjLTEyLjE4LTExLjYxMS0xOS44OTMtMTkuNDE4LTIzLjEyMy0yMy40MTVjLTUuOTEtNy42MTQtNy4yMzQtMTUuMzIxLTQuMDA0LTIzLjEzICAgYzIuMjgyLTUuOSwxMC44NTQtMTguMzYsMjUuNjk2LTM3LjM5N2M3LjgwNy0xMC4wODksMTMuOTktMTguMTc1LDE4LjU1Ni0yNC4yNjdjMzIuOTMxLTQzLjc4LDQ3LjIwOC03MS43NTYsNDIuODI4LTgzLjkzOSAgIGwtMS43MDEtMi44NDdjLTEuMTQzLTEuNzE0LTQuMDkzLTMuMjgyLTguODQ2LTQuNzEyYy00Ljc2NC0xLjQyNy0xMC44NTMtMS42NjMtMTguMjc4LTAuNzEybC04Mi4yMjQsMC41NjggICBjLTEuMzMyLTAuNDcyLTMuMjM0LTAuNDI4LTUuNzEyLDAuMTQ0Yy0yLjQ3NSwwLjU3Mi0zLjcxMywwLjg1OS0zLjcxMywwLjg1OWwtMS40MzEsMC43MTVsLTEuMTM2LDAuODU5ICAgYy0wLjk1MiwwLjU2OC0xLjk5OSwxLjU2Ny0zLjE0MiwyLjk5NWMtMS4xMzcsMS40MjMtMi4wODgsMy4wOTMtMi44NDgsNC45OTZjLTguOTUyLDIzLjAzMS0xOS4xMyw0NC40NDQtMzAuNTUzLDY0LjIzOCAgIGMtNy4wNDMsMTEuODAzLTEzLjUxMSwyMi4wMzItMTkuNDE4LDMwLjY5M2MtNS44OTksOC42NTgtMTAuODQ4LDE1LjAzNy0xNC44NDIsMTkuMTI2Yy00LDQuMDkzLTcuNjEsNy4zNzItMTAuODUyLDkuODQ5ICAgYy0zLjIzNywyLjQ3OC01LjcwOCwzLjUyNS03LjQxOSwzLjE0MmMtMS43MTUtMC4zODMtMy4zMy0wLjc2My00Ljg1OS0xLjE0M2MtMi42NjMtMS43MTQtNC44MDUtNC4wNDUtNi40Mi02Ljk5NSAgIGMtMS42MjItMi45NS0yLjcxNC02LjY2My0zLjI4NS0xMS4xMzZjLTAuNTY4LTQuNDc2LTAuOTA0LTguMzI2LTEtMTEuNTYzYy0wLjA4OS0zLjIzMy0wLjA0OC03LjgwNiwwLjE0NS0xMy43MDYgICBjMC4xOTgtNS45MDMsMC4yODctOS44OTcsMC4yODctMTEuOTkxYzAtNy4yMzQsMC4xNDEtMTUuMDg1LDAuNDI0LTIzLjU1NWMwLjI4OC04LjQ3LDAuNTIxLTE1LjE4MSwwLjcxNi0yMC4xMjUgICBjMC4xOTQtNC45NDksMC4yODQtMTAuMTg1LDAuMjg0LTE1LjcwNXMtMC4zMzYtOS44NDktMS0xMi45OTFjLTAuNjU2LTMuMTM4LTEuNjYzLTYuMTg0LTIuOTktOS4xMzcgICBjLTEuMzM1LTIuOTUtMy4yODktNS4yMzItNS44NTMtNi44NTJjLTIuNTY5LTEuNjE4LTUuNzYzLTIuOTAyLTkuNTY0LTMuODU2Yy0xMC4wODktMi4yODMtMjIuOTM2LTMuNTE4LTM4LjU0Ny0zLjcxICAgYy0zNS40MDEtMC4zOC01OC4xNDgsMS45MDYtNjguMjM2LDYuODU1Yy0zLjk5NywyLjA5MS03LjYxNCw0Ljk0OC0xMC44NDgsOC41NjJjLTMuNDI3LDQuMTg5LTMuOTA1LDYuNDc1LTEuNDMxLDYuODUxICAgYzExLjQyMiwxLjcxMSwxOS41MDgsNS44MDQsMjQuMjY3LDEyLjI3NWwxLjcxNSwzLjQyOWMxLjMzNCwyLjQ3NCwyLjY2Niw2Ljg1NCwzLjk5OSwxMy4xMzRjMS4zMzEsNi4yOCwyLjE5LDEzLjIyNywyLjU2OCwyMC44MzcgICBjMC45NSwxMy44OTcsMC45NSwyNS43OTMsMCwzNS42ODljLTAuOTUzLDkuOS0xLjg1MywxNy42MDctMi43MTIsMjMuMTI3Yy0wLjg1OSw1LjUyLTIuMTQzLDkuOTkzLTMuODU1LDEzLjQxOCAgIGMtMS43MTUsMy40MjYtMi44NTYsNS41Mi0zLjQyOCw2LjI4Yy0wLjU3MSwwLjc2LTEuMDQ3LDEuMjM5LTEuNDI1LDEuNDI3Yy0yLjQ3NCwwLjk0OC01LjA0NywxLjQzMS03LjcxLDEuNDMxICAgYy0yLjY2NywwLTUuOTAxLTEuMzM0LTkuNzA3LTRjLTMuODA1LTIuNjY2LTcuNzU0LTYuMzI4LTExLjg0Ny0xMC45OTJjLTQuMDkzLTQuNjY1LTguNzA5LTExLjE4NC0xMy44NS0xOS41NTggICBjLTUuMTM3LTguMzc0LTEwLjQ2Ny0xOC4yNzEtMTUuOTg3LTI5LjY5MWwtNC41NjctOC4yODJjLTIuODU1LTUuMzI4LTYuNzU1LTEzLjA4Ni0xMS43MDQtMjMuMjY3ICAgYy00Ljk1Mi0xMC4xODUtOS4zMjktMjAuMDM3LTEzLjEzNC0yOS41NTRjLTEuNTIxLTMuOTk3LTMuODA2LTcuMDQtNi44NTEtOS4xMzRsLTEuNDI5LTAuODU5Yy0wLjk1LTAuNzYtMi40NzUtMS41NjctNC41NjctMi40MjcgICBjLTIuMDk1LTAuODU5LTQuMjgxLTEuNDc1LTYuNTY3LTEuODU0bC03OC4yMjksMC41NjhjLTcuOTk0LDAtMTMuNDE4LDEuODExLTE2LjI3NCw1LjQyOGwtMS4xNDMsMS43MTEgICBDMC4yODgsMTQwLjE0NiwwLDE0MS42NjgsMCwxNDMuNzYzYzAsMi4wOTQsMC41NzEsNC42NjQsMS43MTQsNy43MDdjMTEuNDIsMjYuODQsMjMuODM5LDUyLjcyNSwzNy4yNTcsNzcuNjU5ICAgYzEzLjQxOCwyNC45MzQsMjUuMDc4LDQ1LjAxOSwzNC45NzMsNjAuMjM3YzkuODk3LDE1LjIyOSwxOS45ODUsMjkuNjAyLDMwLjI2NCw0My4xMTJjMTAuMjc5LDEzLjUxNSwxNy4wODMsMjIuMTc2LDIwLjQxMiwyNS45ODEgICBjMy4zMzMsMy44MTIsNS45NTEsNi42NjIsNy44NTQsOC41NjVsNy4xMzksNi44NTFjNC41NjgsNC41NjksMTEuMjc2LDEwLjA0MSwyMC4xMjcsMTYuNDE2ICAgYzguODUzLDYuMzc5LDE4LjY1NCwxMi42NTksMjkuNDA4LDE4Ljg1YzEwLjc1Niw2LjE4MSwyMy4yNjksMTEuMjI1LDM3LjU0NiwxNS4xMjZjMTQuMjc1LDMuOTA1LDI4LjE2OSw1LjQ3Miw0MS42ODQsNC43MTZoMzIuODM0ICAgYzYuNjU5LTAuNTc1LDExLjcwNC0yLjY2OSwxNS4xMzMtNi4yODNsMS4xMzYtMS40MzFjMC43NjQtMS4xMzYsMS40NzktMi45MDEsMi4xMzktNS4yNzZjMC42NjgtMi4zNzksMS01LDEtNy44NTEgICBjLTAuMTk1LTguMTgzLDAuNDI4LTE1LjU1OCwxLjg1Mi0yMi4xMjRjMS40MjMtNi41NjQsMy4wNDUtMTEuNTEzLDQuODU5LTE0Ljg0NmMxLjgxMy0zLjMzLDMuODU5LTYuMTQsNi4xMzYtOC40MTggICBjMi4yODItMi4yODMsMy45MDgtMy42NjYsNC44NjItNC4xNDJjMC45NDgtMC40NzksMS43MDUtMC44MDQsMi4yNzYtMC45OTljNC41NjgtMS41MjIsOS45NDQtMC4wNDgsMTYuMTM2LDQuNDI5ICAgYzYuMTg3LDQuNDczLDExLjk5LDkuOTk2LDE3LjQxOCwxNi41NmM1LjQyNSw2LjU3LDExLjk0MywxMy45NDEsMTkuNTU1LDIyLjEyNGM3LjYxNyw4LjE4NiwxNC4yNzcsMTQuMjcxLDE5Ljk4NSwxOC4yNzQgICBsNS43MDgsMy40MjZjMy44MTIsMi4yODYsOC43NjEsNC4zOCwxNC44NTMsNi4yODNjNi4wODEsMS45MDIsMTEuNDA5LDIuMzc4LDE1Ljk4NCwxLjQyN2w3My4wODctMS4xNCAgIGM3LjIyOSwwLDEyLjg1NC0xLjE5NywxNi44NDQtMy41NzJjMy45OTgtMi4zNzksNi4zNzMtNSw3LjEzOS03Ljg1MWMwLjc2NC0yLjg1NCwwLjgwNS02LjA5MiwwLjE0NS05LjcxMiAgIEM1NDYuNzgyLDQwNC4yNSw1NDYuMTE1LDQwMS43MjUsNTQ1LjQ1MSw0MDAuMjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" alt="Группа vk около IT тематики">
+            <p>Группа vk</p>
+          </a>
+        </li>
+      
+        
+        <li>
+          <a class="contact__item hover-hw" target="_blank" href="https://telegram.me/illuminationbot" title="бот автопостов из группы вк">
+            <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDE4OS40NzMgMTg5LjQ3MyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTg5LjQ3MyAxODkuNDczOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPHBhdGggZD0iTTE1Mi41MzEsMTc5LjQ3NmMtMS40OCwwLTIuOTUtMC40MzgtNC4yMTEtMS4yOTNsLTQ3LjY0MS0zMi4zMTZsLTI1LjU1MiwxOC4zODZjLTIuMDA0LDEuNDQxLTQuNTg3LDEuODA0LTYuOTE0LDAuOTcyICAgYy0yLjMyNC0wLjgzNC00LjA4OS0yLjc1OS00LjcxOS01LjE0NmwtMTIuODMtNDguNjIyTDQuODIxLDkzLjkyOGMtMi44ODYtMS4xMDQtNC44LTMuODY1LTQuODIxLTYuOTU1ICAgYy0wLjAyMS0zLjA5LDEuODU1LTUuODc3LDQuNzI3LTcuMDJsMTc0LjMxMi02OS4zNmMwLjc5MS0wLjMzNiwxLjYyOC0wLjUzLDIuNDcyLTAuNTgyYzAuMzAyLTAuMDE4LDAuNjA1LTAuMDE4LDAuOTA2LTAuMDAxICAgYzEuNzQ4LDAuMTA0LDMuNDY1LDAuODE2LDQuODA1LDIuMTNjMC4xMzksMC4xMzYsMC4yNzEsMC4yNzUsMC4zOTYsMC40MmMxLjExLDEuMjY4LDEuNzIsMi44MTQsMS44MzUsNC4zODkgICBjMC4wMjgsMC4zOTYsMC4wMjYsMC43OTctMC4wMDksMS4xOThjLTAuMDI0LDAuMjg2LTAuMDY1LDAuNTcxLTAuMTIzLDAuODU0TDE1OS44OTgsMTczLjM4Yy0wLjQ3MywyLjQ4LTIuMTYxLDQuNTU2LTQuNDkzLDUuNTIzICAgQzE1NC40OCwxNzkuMjg3LDE1My41MDMsMTc5LjQ3NiwxNTIuNTMxLDE3OS40NzZ6IE0xMDQuODYyLDEzMC41NzlsNDIuNDM3LDI4Ljc4NUwxNzAuMTkzLDM5LjI0bC04Mi42ODcsNzkuNTY2bDE3LjE1NiwxMS42MzggICBDMTA0LjczMSwxMzAuNDg3LDEwNC43OTcsMTMwLjUzMywxMDQuODYyLDEzMC41Nzl6IE02OS41MzUsMTI0LjE3OGw1LjY4MiwyMS41M2wxMi4yNDItOC44MDlsLTE2LjAzLTEwLjg3NCAgIEM3MC42ODQsMTI1LjUyMSw3MC4wNDYsMTI0Ljg5Myw2OS41MzUsMTI0LjE3OHogTTI4LjEzNiw4Ni43ODJsMzEuNDc4LDEyLjAzNWMyLjI1NSwwLjg2MiwzLjk1NywyLjc1OCw0LjU3Myw1LjA5MmwzLjk5MiwxNS4xMjkgICBjMC4xODMtMS43NDUsMC45NzQtMy4zODcsMi4yNTktNC42MjRMMTQ5LjIyNywzOC42TDI4LjEzNiw4Ni43ODJ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="бот автопостов из группы вк">
+            <p>Telegram-bot</p>
+          </a>
+        </li>
+      
+        
+        <li>
+          <a class="contact__item hover-hw" target="_blank" href="https://codepen.io/bulch" title="Песочница для всяких мелочей">
+            <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDMxLjY2NSAzMS42NjUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMxLjY2NSAzMS42NjU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMTYuODc4LDAuNDE1Yy0wLjg1NC0wLjU2NS0xLjk2OC0wLjU1Mi0yLjgwOSwwLjAzNEwxLjQ4NSw5LjIxNGMtMC42NzEsMC40NjgtMS4wNzEsMS4yMzMtMS4wNzEsMi4wNTJ2OS40NDQgICBjMCwwLjg0LDAuNDIxLDEuNjIzLDEuMTIyLDIuMDg2bDEyLjc5LDguNDU1YzAuODM2LDAuNTUzLDEuOTIyLDAuNTUzLDIuNzU4LDBsMTMuMDQ0LTguNjE4YzAuNy0wLjQ2MywxLjEyMi0xLjI0NiwxLjEyMi0yLjA4NiAgIHYtOS4yNzljMC0wLjgzOS0wLjQyMS0xLjYyMi0xLjEyMS0yLjA4NUwxNi44NzgsMC40MTV6IE0yNi42MjEsMTAuNjQ1bC00LjgyMSwzLjIzN2wtNC41MjEtMy4yODhMMTcuMjUsNC4xMjdMMjYuNjIxLDEwLjY0NXogICAgTTEzLjk3OSw0LjEzM3Y2LjMyOWwtNC42MzMsMy4yNGwtNC42MjEtMy4wOTlMMTMuOTc5LDQuMTMzeiBNMy40NTgsMTMuNzIybDIuOTkxLDIuMDA0bC0yLjk5MSwyLjA5M1YxMy43MjJ6IE0xNC4wNTgsMjcuMjE1ICAgbC05LjMzMS02LjI1OGw0LjY2MS0zLjI1OGw0LjY3LDMuMTMzVjI3LjIxNXogTTEyLjI4NiwxNS42NzRsMy4wMjEtMi4xMTNsMy41MTksMi4zMTNsLTMuMTE5LDIuMDk1TDEyLjI4NiwxNS42NzR6IE0xNy4zNTQsMjcuMjE1ICAgVjIwLjgzbDQuNDYzLTIuOTkxbDQuODA1LDMuMTU5TDE3LjM1NCwyNy4yMTV6IE0yNy45NTQsMTcuOTI3bC0zLjE2OC0yLjA4MmwzLjE2OC0yLjEyNVYxNy45Mjd6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Песочница для всяких мелочей">
+            <p>Codepen</p>
+          </a>
+        </li>
+      
+        
+        <li>
+          <a class="contact__item hover-hw" target="_blank" href="https://github.com/bulch" title="Немного гитхаба">
+            <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDQ3NS4wODQgNDc1LjA4NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDc1LjA4NCA0NzUuMDg0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTQzNi4yNDQsMTQ2Ljc1MmM1LjE0LTE1LjQyMiw3LjcxMy0zMS40MDksNy43MTMtNDcuOTY3YzAtMjIuMDgtNC44NTktNDIuODI4LTE0LjU2NC02Mi4yNDIgICAgYy0yMC4zNjIsMC0zOC4zNDksMy43MTUtNTMuOTYxLDExLjEzNmMtMTUuNjA0LDcuNDIzLTMzLjQsMTguOTM4LTUzLjM3OSwzNC41NDVjLTI1LjEyMi02LjA5LTUxLjc3Ny05LjEzNS03OS45NDEtOS4xMzUgICAgYy0zMC44MzcsMC02MC4yNDUsMy4zMzMtODguMjIzLDkuOTk0Yy0yMC4zNjQtMTUuOTktMzguMzUxLTI3Ljc0LTUzLjk1OS0zNS4yNmMtMTUuNjA4LTcuNTItMzMuNjg5LTExLjI3OS01NC4yNDctMTEuMjc5ICAgIGMtOS43MDcsMTkuNDE0LTE0LjU2LDQwLjE2My0xNC41Niw2Mi4yNDJjMCwxNi43NTEsMi41NjgsMzIuOTMsNy43MDgsNDguNTM1QzEyLjk0MiwxNzcuNTg3LDAsMjE1LjI3MiwwLDI2MC4zODMgICAgYzAsMzkuNTk1LDUuODk4LDcxLjA5MiwxNy43MDEsOTQuNTA3YzYuMjgzLDEyLjM2NywxNC40NjUsMjMuMzEyLDI0LjU1NCwzMi44MzJjMTAuMDg1LDkuNTE0LDIxLjYwMSwxNy4yMjgsMzQuNTQ1LDIzLjEzICAgIGMxMi45NDYsNS44OTYsMjUuOTgxLDEwLjgwMSwzOS4xMTYsMTQuNjk5YzEzLjEzNCwzLjksMjcuNjQ2LDYuNzU4LDQzLjU0LDguNTU5YzE1Ljg5MywxLjgxNiwyOS45MywzLjAwNCw0Mi4xMTEsMy41NzkgICAgYzEyLjE4MSwwLjU2NCwyNS42OTMsMC44NTMsNDAuNTQ0LDAuODUzYzE3LjUwOCwwLDMzLjM5Ni0wLjQzMiw0Ny42NzgtMS4yODNjMTQuMjc3LTAuODU1LDMwLjU5NC0yLjk1Myw0OC45NjQtNi4yNzYgICAgYzE4LjM2Ny0zLjMzMywzNC41NDctNy44NTcsNDguNTQtMTMuNTY1YzEzLjk5LTUuNzA4LDI3LjQxMi0xMy44OTUsNDAuMjU5LTI0LjU1MWMxMi44NDctMTAuNjYzLDIyLjg4NC0yMy4zMTgsMzAuMTIxLTM3Ljk3NiAgICBjMTEuNjA0LTIzLjYwMywxNy40MTItNTUuMTA3LDE3LjQxMi05NC41MDdDNDc1LjA3OCwyMTUuMDgyLDQ2Mi4xMzUsMTc3LjIwNiw0MzYuMjQ0LDE0Ni43NTJ6IE00MDEuOTk1LDM1NC40NTUgICAgYy02LjA5MiwxMi40NzEtMTMuODAyLDIyLjI2NS0yMy4xMjcsMjkuNDFjLTkuMzI5LDcuMTM5LTIwLjkzOCwxMi44NDctMzQuODMxLDE3LjEzNWMtMTMuOSw0LjI4MS0yNy4yMTcsNy4wODctMzkuOTcxLDguNDE1ICAgIGMtMTIuNzU4LDEuMzM0LTI2LjkzMywxLjk5OC00Mi41NDUsMS45OThoLTQ3Ljk2NmMtMTUuNjA3LDAtMjkuNzktMC42NjQtNDIuNTQxLTEuOTk4Yy0xMi43NTItMS4zMjgtMjYuMDc1LTQuMTM0LTM5Ljk3MS04LjQxNSAgICBjLTEzLjg5MS00LjI4OC0yNS41LTkuOTk2LTM0LjgyOS0xNy4xMzVjLTkuMzI5LTcuMTQ2LTE3LjAzNy0xNi45MzktMjMuMTI4LTI5LjQxYy02LjA5LTEyLjQ3MS05LjEzNi0yNy4wNzYtOS4xMzYtNDMuODI0ICAgIGMwLTIyLjg0Nyw2LjU2Ny00Mi4yNjQsMTkuNzAyLTU4LjI0NWMxMy4xMzQtMTUuOTksMzAuOTI5LTIzLjk4Miw1My4zODctMjMuOTgyYzguMTg4LDAsMjYuNzQ2LDEuOTk3LDU1LjY3Nyw1Ljk5NSAgICBjMTMuNTEzLDIuMDkzLDI4LjQ1NiwzLjE0LDQ0LjgyMywzLjE0YzE2LjM3MiwwLDMxLjMxMy0xLjA0NCw0NC44MjQtMy4xNGMyOS4zMTctMy45OTksNDcuODY5LTUuOTk1LDU1LjY3OC01Ljk5NSAgICBjMjIuNDU3LDAsNDAuMjUyLDcuOTk2LDUzLjM4NiwyMy45ODJjMTMuMTM1LDE1Ljk4OCwxOS42OTgsMzUuMzk4LDE5LjY5OCw1OC4yNDUgICAgQzQxMS4xMjUsMzI3LjM4Miw0MDguMDc5LDM0MS45OTUsNDAxLjk5NSwzNTQuNDU1eiIgZmlsbD0iIzAwMDAwMCIvPgoJCTxwYXRoIGQ9Ik0xNjYuODc1LDI2NS41MmMtNS44MDYtNi40NzUtMTIuNzAzLTkuNzEyLTIwLjY5OS05LjcxMmMtNy45OTgsMC0xNC44OTYsMy4yNDEtMjAuNzAxLDkuNzEyICAgIGMtNS44MDIsNi40NjgtOS44OTcsMTMuNzAzLTEyLjI3NSwyMS42ODljLTIuMzgzLDguMDAyLTMuNTcxLDE1LjgwNC0zLjU3MSwyMy40MjJjMCw3LjYxLDEuMTkxLDE1LjQxMywzLjU3MSwyMy40MTQgICAgYzIuMzc1LDcuOTkxLDYuNDY4LDE1LjIyMiwxMi4yNzUsMjEuNjg5YzUuODA4LDYuNDc1LDEyLjcwMyw5LjcxMywyMC43MDEsOS43MTNjNy45OTYsMCwxNC44OTYtMy4yNDQsMjAuNjk5LTkuNzEzICAgIGM1LjgwNC02LjQ2OCw5Ljg5Ny0xMy42OTgsMTIuMjc1LTIxLjY4OWMyLjM4LTguMDAxLDMuNTcxLTE1LjgwNCwzLjU3MS0yMy40MTRjMC03LjYxMS0xLjE4OC0xNS40Mi0zLjU3MS0yMy40MjIgICAgQzE3Ni43NzEsMjc5LjIyNiwxNzIuNjgyLDI3MS45OTQsMTY2Ljg3NSwyNjUuNTJ6IiBmaWxsPSIjMDAwMDAwIi8+CgkJPHBhdGggZD0iTTM0OS42MDEsMjY1LjUyYy01LjgwNC02LjQ3NS0xMi43MDMtOS43MTItMjAuNjk3LTkuNzEyYy03Ljk5MSwwLTE0Ljg5NCwzLjI0MS0yMC43MDEsOS43MTIgICAgYy01LjgwNCw2LjQ2OC05Ljg5NiwxMy43MDMtMTIuMjcxLDIxLjY4OWMtMi4zODUsOC4wMDItMy41NzYsMTUuODA0LTMuNTc2LDIzLjQyMmMwLDcuNjEsMS4xOTEsMTUuNDEzLDMuNTc2LDIzLjQxNCAgICBjMi4zNzUsNy45OTEsNi40NjgsMTUuMjIyLDEyLjI3MSwyMS42ODljNS44MDgsNi40NzUsMTIuNzEsOS43MTMsMjAuNzAxLDkuNzEzYzcuOTk0LDAsMTQuODk0LTMuMjQ0LDIwLjY5Ny05LjcxMyAgICBjNS44MDEtNi40NjgsOS44OTYtMTMuNjk4LDEyLjI3OC0yMS42ODljMi4zNzktOC4wMDEsMy41NjktMTUuODA0LDMuNTY5LTIzLjQxNGMwLTcuNjExLTEuMTktMTUuNDItMy41NjktMjMuNDIyICAgIEMzNTkuNDk4LDI3OS4yMjYsMzU1LjQwMiwyNzEuOTk0LDM0OS42MDEsMjY1LjUyeiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" alt="Немного гитхаба">
+            <p>Github</p>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+  </div>
+
+  <div class="site__footer_col">
+
+  </div>
+
+  <div class="site__footer_col">
+
+  </div>
+
+  <div class="site__footer_col">
+    <div class="site__project">
+  <div class="row">
+    <h2>About project</h2>
+  </div>
+  <div class="row">
+    <p>Сайт создан с помощью генератора статических сайтов <a href="https://jekyllrb.com/">Jekyll</a>. Весь код размещён на <a href="https://github.com/bulch/bulch.github.io" target="_blank">Github</a>.</p>
+  </div>
+</div>
+
+  </div>
+
+</footer>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter40073690 = new Ya.Metrika2({
+                    id:40073690,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    trackHash:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/40073690" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+</body>
+</html>

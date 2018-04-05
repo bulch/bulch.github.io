@@ -11,5 +11,5 @@ yandex_verification: '7f713c6d07f116b4'
 markdown: kramdown
 permalink: /:title
 
-gems:
-    - jekyll-minifier
+# gems:
+#     - jekyll-minifier
