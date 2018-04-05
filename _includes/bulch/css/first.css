@@ -270,7 +270,6 @@ body  h2 {
 }
 .site__tags {
   width: 100%;
-  overflow: overlay;
 }
 ul.site__portfolio--tech,
 .site__tags ul  {
@@ -328,6 +327,12 @@ ul.site__portfolio--tech,
   bottom: -10px;
   transition: all .5s cubic-bezier(0.6, -0.6, 0.2, 1.5);
 }
+.contact__item--cer {
+  width: 36px;
+  height: 36px;
+  margin: 10px;
+}
+
 .site__footer {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -339,4 +344,7 @@ li.hover-hw article {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+.site__portfolio .list_cer li {
+  background: transparent;
 }
