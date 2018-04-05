@@ -69,11 +69,18 @@ html {
 }
 body {
   background: #4A4A4A;
-  font-family: 'Bree Serif';
   -webkit-user-select: none;
+  font-family: 'Jura', sans-serif;
   cursor: default;
   color: white;
+  padding: 2em;
 }
+
+body  h2 {
+  margin-top: 2em;
+  margin-bottom: 1em
+}
+
 .btn-green-color{
   background: #1DB954;
 }
@@ -86,6 +93,7 @@ body {
   position: relative;
   margin: 0 auto;
   -webkit-user-select: none;
+  font-family: 'VT323', monospace;
   cursor: default;
   display: inline-block;
 }

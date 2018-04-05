@@ -119,11 +119,18 @@ html {
 }
 body {
   background: #4A4A4A;
-  font-family: 'Bree Serif';
   -webkit-user-select: none;
+  font-family: 'Jura', sans-serif;
   cursor: default;
   color: white;
+  padding: 2em;
 }
+
+body  h2 {
+  margin-top: 2em;
+  margin-bottom: 1em
+}
+
 .btn-green-color{
   background: #1DB954;
 }
@@ -136,6 +143,7 @@ body {
   position: relative;
   margin: 0 auto;
   -webkit-user-select: none;
+  font-family: 'VT323', monospace;
   cursor: default;
   display: inline-block;
 }
@@ -501,7 +509,9 @@ li.hover-hw article {
 </script>
 <!-- // Load CSS Start -->
 <script type="text/javascript">
-  loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=Bree+Serif" );
+  // loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=Bree+Serif" );
+  loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=VT323" );
+  loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=Jura" );
   loadCSS( "static/css/hw.css?ver=1.0.0", false, "all" );
 </script>
 <!-- // Load CSS End -->
