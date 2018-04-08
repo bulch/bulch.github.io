@@ -521,12 +521,14 @@ li.hover-hw article {
   loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=VT323" );
   loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=Jura" );
   loadCSS( "static/css/hw.css?ver=1.0.0", false, "all" );
+  loadCSS( "/static/css/style.css?v=", false, "all" );
 </script>
 <!-- // Load CSS End -->
 
 <!-- // Load CSS Compiled without JS -->
 <noscript>
   <link href="static/css/hw.css?ver=1.0.0" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/static/css/style.css?v=">
 </noscript>
 
 </head>
@@ -542,15 +544,18 @@ li.hover-hw article {
 
 <body>
   <header class="site__header">
-	<a href="https://bulch.ru/">
-		<div class="glitch" data-text="hello">hello</div>
+	<a href="https://bulch.ru">
+		
+			<div class="glitch" data-text="hello">hello</div>
+		
 	</a>
 </header>
 
   <main class="page-content">
+
     <div class="site__portfolio">
   <div class="row">
-    <h2>My work: </h2>
+    <h2></h2>
   </div>
   <div class="row">
     <ul>
@@ -1172,9 +1177,9 @@ li.hover-hw article {
   </div>
 </div>
 
-    <div class="site__tags">
+<div class="site__tags">
   <div class="row">
-    <h2>Key: </h2>
+    <h2></h2>
   </div>
   <div class="row">
     <ul>
@@ -1324,13 +1329,13 @@ li.hover-hw article {
   </div>
 </div>
 
-    <!--
+<!--
 name , description ,  url ,  img_path
 -->
 
 <div class="site__portfolio site_cer">
   <div class="row">
-    <h2>Certificate: </h2>
+    <h2></h2>
   </div>
   <div class="row">
     <ul>
@@ -1399,6 +1404,8 @@ name , description ,  url ,  img_path
   </div>
 </div>
 
+
+    
   </main>
   <footer class="site__footer">
   <div class="site__footer_col">
