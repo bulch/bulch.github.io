@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html>
   {% include module/head.html %}
@@ -5,9 +7,9 @@
 <body>
   {% include bulch/header.html %}
   <main class="page-content">
-    {% include bulch/portfolio.html name="My work: " %}
-    {% include bulch/key_section.html name="Key: " %}
-    {% include bulch/certificate.html name="Certificate: " %}
+
+    {{ content }}
+    
   </main>
   {% include bulch/footer.html %}
 </body>
