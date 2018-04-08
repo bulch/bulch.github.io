@@ -1,5 +1,9 @@
 <header class="site__header">
-	<a href="https://bulch.ru/">
-		<div class="glitch" data-text="hello">hello</div>
+	<a href="{{ site.url }}">
+		{% if page.title %}
+			<div class="glitch" data-text="bulch">bulch</div>
+		{% else %}
+			<div class="glitch" data-text="hello">hello</div>
+		{% endif %}
 	</a>
 </header>
