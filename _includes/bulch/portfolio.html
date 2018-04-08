@@ -31,9 +31,13 @@
                 </li>
               </ul>
             </noindex>
-            <ul class="site__portfolio--tech">
-              {{ work.tech }}
-            </ul>
+            <div class="site__tags">
+              <div class="row">
+                <ul>
+                    {{ work.tech }}
+                </ul>
+              </div>
+            </div>
             <time pubdate datetime="{{ work.date }}">
               {{ work.date | date: "%Y" }}
             </time>

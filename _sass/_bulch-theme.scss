@@ -21,8 +21,13 @@ h1, h2, h3, h4, h5, h6 {
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
 }
-
+.site__header {
+  text-align: center;
+}
 .post {
+  background: rgba($cod-grey, 0.4);
+  display: block;
+  padding: 2em 3em;
   h1 {font-size: 5rem}
   h2 {font-size: 4rem}
   h3 {font-size: 3rem}
@@ -38,18 +43,14 @@ h1, h2, h3, h4, h5, h6 {
   }
   &-header {}
   &-title {
-    font-family: 'VT323', monospace;
+    border-bottom: 1px solid $chelsea-cucumber;
+    padding: 0.7em;
   }
   &-content {}
 }
-
 .btn-green-color{
   background: $conifer;
 }
-.site__header {
-  text-align: center;
-}
-
 .site__portfolio ul {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -65,25 +66,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 .site__tags {
   width: 100%;
-  & ul li:hover {
-    background: $body-background;
+  & ul  {
+    display: flex;
+    grid-template-columns: auto;
+    list-style-type: none;
+    flex-wrap: wrap;
+    & li {
+      background: $body-background;
+      margin: 1px;
+      padding: 5px 8px;
+      &:hover {
+        background: rgba($body-background, 0.4);
+      }
+    }
   }
 }
-ul.site__portfolio--tech,
-.site__tags ul  {
-  display: block;
-  grid-template-columns: auto;
-  list-style-type: none;
-}
-.site__tags ul li,
-.site__portfolio li> ul li,
-.site__portfolio--tech li {
-  background: $body-background;
-  padding: 5px 10px;
-  margin: 1px;
-  display: inline-block;
-  font-size: 0.8rem;
-}
+
 .hover-hw h1 {
   display: inline-block;
 }
