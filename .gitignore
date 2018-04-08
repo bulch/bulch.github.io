@@ -1,10 +1,9 @@
 # gitignore
 node_modules/
-app/static/libs/
 gulpfile.js
 *.js
 *.json
-.sass-chache/
+.sass-cache/
 Gemfile.lock
 _site/
 # gitignore
