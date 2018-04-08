@@ -4,7 +4,7 @@ desc: test Pages
 keywords: jekyll, github
 tags: [Github-Pages, Jekyll]
 img: terminal.png
-layout: default
+layout: page
 author: bulch
 ---
 # H1

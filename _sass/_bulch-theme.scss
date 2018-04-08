@@ -1,0 +1,144 @@
+html {
+  font-size: 14px;
+}
+body {
+  background: $custom-bg;
+  -webkit-user-select: none;
+  font-family: 'Jura', sans-serif;
+  cursor: default;
+  color: white;
+  padding: 2em;
+    h2 {
+      margin-top: 2em;
+      margin-bottom: 1em
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: $header;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+.post {
+  h1 {font-size: 5rem}
+  h2 {font-size: 4rem}
+  h3 {font-size: 3rem}
+  h4 {font-size: 2rem}
+  h5 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  h6 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: $grey;
+  }
+  &-header {}
+  &-title {
+    font-family: 'VT323', monospace;
+  }
+  &-content {}
+}
+
+.btn-green-color{
+  background: $conifer;
+}
+.site__header {
+  text-align: center;
+}
+
+.site__portfolio ul {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  list-style: none;
+  & li {
+    margin: 1px;
+    padding: 15px 10px;
+    background: $body-background;
+  }
+  & .list_cer li {
+    background: transparent;
+  }
+}
+.site__tags {
+  width: 100%;
+  & ul li:hover {
+    background: $body-background;
+  }
+}
+ul.site__portfolio--tech,
+.site__tags ul  {
+  display: block;
+  grid-template-columns: auto;
+  list-style-type: none;
+}
+.site__tags ul li,
+.site__portfolio li> ul li,
+.site__portfolio--tech li {
+  background: $body-background;
+  padding: 5px 10px;
+  margin: 1px;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+.hover-hw h1 {
+  display: inline-block;
+}
+.contact {
+  list-style-type: none;
+  li {
+   display: inline-block;
+   margin: auto 15px;
+  }
+ &__item {
+   color: #fff;
+   background: $silver-chalice;
+   text-align: center;
+   text-decoration: none;
+   position: relative;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all .5s;
+   &--cer {
+     width: 36px;
+     height: 36px;
+     margin: 10px;
+   }
+   & > p {
+     visibility: hidden;
+     position: absolute;
+     width: max-content;
+     z-index: -1;
+     background: $body-background;
+     padding: 5px 10px;
+     bottom: -10px;
+     transition: all .5s cubic-bezier(0.6, -0.6, 0.2, 1.5);
+   }
+   & img {
+     width: 24px;
+   }
+   &:hover img+p {
+     visibility: visible;
+     bottom: 36px;
+     z-index: 2;
+   }
+ }
+}
+.site__footer {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+li.hover-hw article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
