@@ -4,8 +4,7 @@ app/static/libs/
 gulpfile.js
 *.js
 *.json
+.sass-chache/
 Gemfile.lock
-_site/*.*
-_site/*/*.*
-_site/*/*/*.*
+_site/
 # gitignore
