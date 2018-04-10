@@ -1,21 +1,5 @@
 <style media="screen">
-{% include bulch/css/critical.css %}
-html {font-size: 14px; }
-body {
-background: #4A4A4A;
--webkit-user-select: none;
-font-family: 'Jura', sans-serif;
-cursor: default;
-color: white;
-padding: 2em; }
-body h2 {
-  margin-top: 2em;
-  margin-bottom: 1em; }
-h1, h2, h3, h4, h5, h6 {
-font-weight: normal;
-color: #b5e853;
-letter-spacing: -0.03em;
-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); }
+  {% include /bulch/css/critical.css %}
 </style>
 <!-- // Load CSS & WebFonts Main Function -->
 <script type="text/javascript">
@@ -81,15 +65,15 @@ text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 
   // loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=Bree+Serif" );
   loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=VT323" );
   loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=Jura" );
-  loadCSS( "static/css/hw.css?ver=1.0.0", false, "all" );
+  loadCSS( "{{ 'static/css/hw.css?ver=1.0.0' | append: site.github.build_revision | relative_url }}", false, "all" );
   loadCSS( "{{ '/static/css/style.css?v=' | append: site.github.build_revision | relative_url }}", false, "all" );
 </script>
 <!-- // Load CSS End -->
 
 <!-- // Load CSS Compiled without JS -->
 <noscript>
-  <link href="static/css/hw.css?ver=1.0.0" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="{{ '/static/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link href="{{ 'static/css/hw.css?ver=1.0.0' | append: site.github.build_revision | relative_url }}" rel="stylesheet" type="text/css">
+  <link href="{{ '/static/css/style.css?v=1.0.0' | append: site.github.build_revision | relative_url }}" rel="stylesheet" type="text/css">
 </noscript>
 
 

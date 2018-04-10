@@ -11,5 +11,9 @@ yandex_verification: '7f713c6d07f116b4'
 markdown: kramdown
 permalink: /:title
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # gems:
 #     - jekyll-minifier
