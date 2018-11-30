@@ -6,6 +6,7 @@ them_color: '#4A4A4A'
 url: 'https://bulch.ru'
 github_username:  'bulch'
 yandex_verification: '7f713c6d07f116b4'
+yandex_metrica: '40073690'
 
 # Build settings
 markdown: kramdown
