@@ -63,3 +63,76 @@ a {
   cursor: pointer;
 }
 /* / reset css */
+/* My style */
+html {
+    font-size: 14px
+}
+
+body {
+    background: #4A4A4A;
+    -webkit-user-select: none;
+    font-family: 'Jura', sans-serif;
+    cursor: default;
+    color: white;
+    padding: 2em
+}
+
+body h2 {
+    margin-top: 2em;
+    margin-bottom: 1em
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    color: #b5e853;
+    letter-spacing: -0.03em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1)
+}
+
+.site__header {
+    text-align: center
+}
+
+.post {
+    background: rgba(21, 21, 21, 0.4);
+    display: block;
+    padding: 2em 3em
+}
+
+.post h1 {
+    font-size: 5rem
+}
+
+.post h2 {
+    font-size: 4rem
+}
+
+.post h3 {
+    font-size: 3rem
+}
+
+.post h4 {
+    font-size: 2rem
+}
+
+.post h5 {
+    font-size: 1.5rem;
+    text-transform: uppercase
+}
+
+.post h6 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #888
+}
+
+.post-title {
+    border-bottom: 1px solid #90a959;
+    padding: 0.7em
+}
+/*/ My style  */
