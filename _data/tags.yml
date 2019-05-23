@@ -18,6 +18,7 @@
 - name: 'yaml/yml'
 - name: 'MySQL'
 - name: 'PhpMyAdmin'
+- name: 'Adminer'
 - name: 'bash'
 - name: 'Markdown'
 - name: 'Apache HTTP Server'
