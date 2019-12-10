@@ -105,3 +105,46 @@
   website: 'https://hamam64.ru/'
   tech: '<li>html</li><li>css</li><li>gulp</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>'
   date: '2016-10-20'
+
+- name: 'Услуги по сертификации — ООО «Вектор гарантии качества»'
+  description: 'Простой сайт на modx'
+  website: 'https://vektor-gk.ru/'
+  tech: '<li>html</li><li>css(scss)</li><li>js</li><li>php</li><li>modx api</li><li>pdotools</li>'
+  date: '11.2019'
+
+- name: 'Лесная карта - Комплекс программных решений для департаментов лесного хозяйства и предприятий лесной отрасли '
+  description: 'landing page'
+  website: 'http://gis-forest.ru/'
+  tech: '<li>nodejs</li><li>nuxtjs</li><li>vue</li><li>nodemailer</li><li>js</li><li>gitlab ci</li>'
+  date: '2019'
+
+- name: 'Новости Саратова сегодня'
+  description: 'поддержка с 12.18 до 10.19, bitrix, php, api youtube, api yandex,api… '
+  website: 'https://saratov24.tv/'
+  tech: '<li>bitrix</li><li>php</li><li>js</li><li>bash</li><li>bitrix api</li><li>youtube api</li>'
+  date: '10.2019'
+
+- name: 'Жилой комплекс Серебро'
+  description: 'Сайт по продажи квартир в новых домах, bitrix, шаблон для создания других похожих сайтов, ипотечный калькулятор(js)+интеграция в битрикс(iblock, bitrix api), шахматка(вывод квартир в виде шахматной доски с возможностью фильтрации и изменениями статусов), парсер xls to csv, xsl to array(php), csv to array(php)'
+  website: 'https://www.gkserebro.ru/'
+  tech: '<li>bitrix</li><li>php</li><li>js</li><li>bitrix api</li>'
+  date: '2019'
+
+- name: 'Медовые радости | Интернет-магазин мёда'
+  description: 'modx сайт каталог выросший в магазин'
+  website: 'http://medradost.ru/'
+  tech: '<li>js</li><li>php</li><li>modx api</li><li>pdotools</li>'
+  date: '2019'
+
+- name: 'РосДорога - Зарабатывай с помощью регистратора'
+  description: ' Сайт на modx+minishop был разработан свой модуль(modx api) с интерфейсом для админки(exjs), ну и верстка(html,css,js) '
+  website: 'http://xn--80afc3bbakdg.xn--p1ai/'
+  tech: '<li>html</li><li>css</li><li>js</li><li>php</li><li>modx</li><li>minishop</li><li>modx api</li><li>extjs</li>'
+  date: '2019'
+
+- name: '1ДМЦ - Первый детский медицинский центр'
+  description: 'Сайт мигрировал с Joomla cms на Modx с сохранением всего функционала'
+  website: 'https://1dmc.ru/'
+  tech: '<li>html</li><li>css</li><li>js</li><li>jquery</li><li>php</li><li>modx</li><li>migrate joomla to modx</li><li>modx snippets</li><li>modx api</li>'
+  date: '2019'
+
