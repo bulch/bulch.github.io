@@ -12,6 +12,7 @@
 - name: 'webpack'
 - name: 'bootstrap'
 - name: 'foundation'
+- name: 'CI/CD'
 - name: 'php'
 - name: 'xml'
 - name: 'json'
