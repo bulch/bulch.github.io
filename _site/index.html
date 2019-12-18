@@ -252,15 +252,15 @@ h6 {
   // loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=Bree+Serif" );
   loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=VT323" );
   loadLocalStorageCSS( "webfonts", "https://fonts.googleapis.com/css?family=Jura" );
-  loadCSS( "/static/css/hw.css?ver=1.0.064f28d55017d81aa14fd6a6759cf07d4c173d085", false, "all" );
-  loadCSS( "/static/css/style.css?v=64f28d55017d81aa14fd6a6759cf07d4c173d085", false, "all" );
+  loadCSS( "/static/css/hw.css?ver=1.0.095dcfe8e73cfbbdfe63de463e125cef7478fe83f", false, "all" );
+  loadCSS( "/static/css/style.css?v=95dcfe8e73cfbbdfe63de463e125cef7478fe83f", false, "all" );
 </script>
 <!-- // Load CSS End -->
 
 <!-- // Load CSS Compiled without JS -->
 <noscript>
-  <link href="/static/css/hw.css?ver=1.0.064f28d55017d81aa14fd6a6759cf07d4c173d085" rel="stylesheet" type="text/css">
-  <link href="/static/css/style.css?v=1.0.064f28d55017d81aa14fd6a6759cf07d4c173d085" rel="stylesheet" type="text/css">
+  <link href="/static/css/hw.css?ver=1.0.095dcfe8e73cfbbdfe63de463e125cef7478fe83f" rel="stylesheet" type="text/css">
+  <link href="/static/css/style.css?v=1.0.095dcfe8e73cfbbdfe63de463e125cef7478fe83f" rel="stylesheet" type="text/css">
 </noscript>
 
 
@@ -336,7 +336,7 @@ h6 {
   <header class="site__header">
 	<a href="http://localhost:4000">
 		
-			<div class="glitch" data-text="hello world">hello world</div>
+			<div class="glitch" data-text="hello">hello</div>
 		
 	</a>
 </header>
@@ -362,11 +362,6 @@ h6 {
             <p>Простой сайт на modx</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="https://vektor-gk.ru/" title="Услуги по сертификации — ООО «Вектор гарантии качества»" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -378,11 +373,23 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css(scss)</li><li>js</li><li>php</li><li>modx api</li><li>pdotools</li>
+                  
+                    <li>html</li>
+                  
+                    <li>scss</li>
+                  
+                    <li>js</li>
+                  
+                    <li>php</li>
+                  
+                    <li>modx api</li>
+                  
+                    <li>pdotools</li>
+                  
                 </ul>
               </div>
             </div>
-            <time pubdate datetime="2019-11-1">
+            <time pubdate datetime="2019-11-01">
               2019
             </time>
           </article>
@@ -397,14 +404,9 @@ h6 {
                 </h1>
               </a>
             </noindex>
-            <p>поддержка с 12.18 до 10.19, bitrix, php, api youtube, api yandex,api… </p>
+            <p>поддержка с 12.18 до 10.19, bitrix, php, api youtube, api yandex,api…</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="https://saratov24.tv/" title="Новости Саратова сегодня" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -416,11 +418,23 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>bitrix</li><li>php</li><li>js</li><li>bash</li><li>bitrix api</li><li>youtube api</li>
+                  
+                    <li>bitrix</li>
+                  
+                    <li>php</li>
+                  
+                    <li>js</li>
+                  
+                    <li>bash</li>
+                  
+                    <li>bitrix api</li>
+                  
+                    <li>youtube api</li>
+                  
                 </ul>
               </div>
             </div>
-            <time pubdate datetime="2019-10-1">
+            <time pubdate datetime="2019-10-01">
               2019
             </time>
           </article>
@@ -429,22 +443,17 @@ h6 {
         <li class="hover-hw">
           <article>
             <noindex>
-              <a href="http://gis-forest.ru/" title="Лесная карта - Комплекс программных решений для департаментов лесного хозяйства и предприятий лесной отрасли " target="_blank" rel="nofollow">
+              <a href="http://gis-forest.ru/" title="Лесная карта - Комплекс программных решений для департаментов лесного хозяйства и предприятий лесной отрасли" target="_blank" rel="nofollow">
                 <h1>
-                  Лесная карта - комплекс программных решений для департаментов лесного хозяйства и предприятий лесной отрасли 
+                  Лесная карта - комплекс программных решений для департаментов лесного хозяйства и предприятий лесной отрасли
                 </h1>
               </a>
             </noindex>
             <p>landing page</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
-                  <a class="contact__item contact__item--cer hover-hw" href="http://gis-forest.ru/" title="Лесная карта - Комплекс программных решений для департаментов лесного хозяйства и предприятий лесной отрасли " target="_blank" rel="nofollow">
+                  <a class="contact__item contact__item--cer hover-hw" href="http://gis-forest.ru/" title="Лесная карта - Комплекс программных решений для департаментов лесного хозяйства и предприятий лесной отрасли" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
                       <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Перейти по внешний ссылки</p>
                     </a>
@@ -454,11 +463,23 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>nodejs</li><li>nuxtjs</li><li>vue</li><li>nodemailer</li><li>js</li><li>gitlab ci</li>
+                  
+                    <li>nodejs</li>
+                  
+                    <li>nuxtjs</li>
+                  
+                    <li>vue</li>
+                  
+                    <li>nodemailer</li>
+                  
+                    <li>js</li>
+                  
+                    <li>gitlab ci</li>
+                  
                 </ul>
               </div>
             </div>
-            <time pubdate datetime="2019-10-1">
+            <time pubdate datetime="2019-10-01">
               2019
             </time>
           </article>
@@ -476,11 +497,6 @@ h6 {
             <p>Сайт по продажи квартир в новых домах, bitrix, шаблон для создания других похожих сайтов, ипотечный калькулятор(js)+интеграция в битрикс(iblock, bitrix api), шахматка(вывод квартир в виде шахматной доски с возможностью фильтрации и изменениями статусов), парсер xls to csv, xsl to array(php), csv to array(php)</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="https://www.gkserebro.ru/" title="Жилой комплекс Серебро" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -492,11 +508,19 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>bitrix</li><li>php</li><li>js</li><li>bitrix api</li>
+                  
+                    <li>bitrix</li>
+                  
+                    <li>php</li>
+                  
+                    <li>js</li>
+                  
+                    <li>bitrix api</li>
+                  
                 </ul>
               </div>
             </div>
-            <time pubdate datetime="2019-05-1">
+            <time pubdate datetime="2019-05-01">
               2019
             </time>
           </article>
@@ -514,11 +538,6 @@ h6 {
             <p>modx сайт каталог выросший в магазин</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://medradost.ru/" title="Медовые радости | Интернет-магазин мёда" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -530,11 +549,19 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>js</li><li>php</li><li>modx api</li><li>pdotools</li>
+                  
+                    <li>js</li>
+                  
+                    <li>php</li>
+                  
+                    <li>modx api</li>
+                  
+                    <li>pdotools</li>
+                  
                 </ul>
               </div>
             </div>
-            <time pubdate datetime="2019-02-1">
+            <time pubdate datetime="2019-02-01">
               2019
             </time>
           </article>
@@ -549,14 +576,9 @@ h6 {
                 </h1>
               </a>
             </noindex>
-            <p> Сайт на modx+minishop был разработан свой модуль(modx api) с интерфейсом для админки(exjs), ну и верстка(html,css,js) </p>
+            <p>Сайт на modx+minishop был разработан свой модуль(modx api) с интерфейсом для админки(exjs), ну и верстка(html,css,js)</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://xn--80afc3bbakdg.xn--p1ai/" title="РосДорога - Зарабатывай с помощью регистратора" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -568,7 +590,23 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>js</li><li>php</li><li>modx</li><li>minishop</li><li>modx api</li><li>extjs</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>js</li>
+                  
+                    <li>php</li>
+                  
+                    <li>modx</li>
+                  
+                    <li>minishop</li>
+                  
+                    <li>modx api</li>
+                  
+                    <li>extjs</li>
+                  
                 </ul>
               </div>
             </div>
@@ -590,11 +628,6 @@ h6 {
             <p>Сайт мигрировал с Joomla cms на Modx с сохранением всего функционала</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="https://1dmc.ru/" title="1ДМЦ - Первый детский медицинский центр" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -606,11 +639,29 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>js</li><li>jquery</li><li>php</li><li>modx</li><li>migrate joomla to modx</li><li>modx snippets</li><li>modx api</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
+                    <li>php</li>
+                  
+                    <li>modx</li>
+                  
+                    <li>migrate joomla to modx</li>
+                  
+                    <li>modx snippets</li>
+                  
+                    <li>modx api</li>
+                  
                 </ul>
               </div>
             </div>
-            <time pubdate datetime="2018-12-1">
+            <time pubdate datetime="2018-12-01">
               2018
             </time>
           </article>
@@ -628,11 +679,6 @@ h6 {
             <p>мой личный сайт )</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="https://bulch.ru/" title="bulch.ru" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -644,7 +690,15 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>github</li><li>jukyll</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>github</li>
+                  
+                    <li>jukyll</li>
+                  
                 </ul>
               </div>
             </div>
@@ -657,22 +711,17 @@ h6 {
         <li class="hover-hw">
           <article>
             <noindex>
-              <a href="http://tort.artcake64.ru/" title="Кондитерские изделия - artcake64 " target="_blank" rel="nofollow">
+              <a href="http://tort.artcake64.ru/" title="Кондитерские изделия - artcake64" target="_blank" rel="nofollow">
                 <h1>
-                  Кондитерские изделия - artcake64 
+                  Кондитерские изделия - artcake64
                 </h1>
               </a>
             </noindex>
             <p>Сайт на тильде  для продажи тортиков и всяких вкусностей</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
-                  <a class="contact__item contact__item--cer hover-hw" href="http://tort.artcake64.ru/" title="Кондитерские изделия - artcake64 " target="_blank" rel="nofollow">
+                  <a class="contact__item contact__item--cer hover-hw" href="http://tort.artcake64.ru/" title="Кондитерские изделия - artcake64" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
                       <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Перейти по внешний ссылки</p>
                     </a>
@@ -682,7 +731,9 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
+                  
                     <li>tilda</li>
+                  
                 </ul>
               </div>
             </div>
@@ -704,11 +755,6 @@ h6 {
             <p>Сайт на тильде. Регистрация в конкурсе лидерыправа</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://лидерыправа.рф" title="лидерыправа.рф" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -720,7 +766,9 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
+                  
                     <li>tilda</li>
+                  
                 </ul>
               </div>
             </div>
@@ -742,11 +790,6 @@ h6 {
             <p>Сайт с калькулятором расчета стоимости гарантий по 44-ФЗ,  223-ФЗ,  615-ПП (185-ФЗ)</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://finsp.ru/" title="Услуги участникам госконтрактов Банковские гарантии" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -758,7 +801,25 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>gulp</li>
+                  
+                    <li>pug</li>
+                  
+                    <li>stylus</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
+                    <li>php</li>
+                  
+                    <li>modx</li>
+                  
                 </ul>
               </div>
             </div>
@@ -780,11 +841,6 @@ h6 {
             <p>Красивый сайт с калькулятором стоимости и возможностью предварительного заказа древесного угля</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://sarugol.ru" title="Русский уголь" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -796,7 +852,21 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>gulp</li>
+                  
+                    <li>pug</li>
+                  
+                    <li>stylus</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
                 </ul>
               </div>
             </div>
@@ -815,14 +885,9 @@ h6 {
                 </h1>
               </a>
             </noindex>
-            <p>Посадочная страница с небольшим калькулятором неустойки. Сделан для 3 городов. </p>
+            <p>Посадочная страница с небольшим калькулятором неустойки. Сделан для 3 городов.</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="https://ddu.yagofarov.ru/" title="Взыскание неустойки с застройщиков - Адвокат Ягофаров" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -834,7 +899,19 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>sass</li>
+                  
+                    <li>prepros</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
                 </ul>
               </div>
             </div>
@@ -856,11 +933,6 @@ h6 {
             <p>Посадочная страница для банкротов. Много полезной информации и возможность отправить заявку. Сделан для 3 городов.</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="https://bfl.yagofarov.ru/" title="Банкротство физических лиц -  Адвокат Ягофаров" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -872,7 +944,19 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>sass</li>
+                  
+                    <li>prepros</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
                 </ul>
               </div>
             </div>
@@ -894,11 +978,6 @@ h6 {
             <p>Личный сайт визитка адвоката</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="https://advokatyagofarov.ru/" title="Адвокат Ягофаров сайт визитка" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -910,7 +989,19 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>sass</li>
+                  
+                    <li>prepros</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
                 </ul>
               </div>
             </div>
@@ -932,11 +1023,6 @@ h6 {
             <p>Большой корпоративный сайт для адвоката с большим количеством правовой информации и опытом компании</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="https://yagofarov.ru/" title="Адвокат Ягофаров корпоративный сайт" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -948,7 +1034,25 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>gulp</li>
+                  
+                    <li>pug</li>
+                  
+                    <li>stylus</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
+                    <li>php</li>
+                  
+                    <li>modx</li>
+                  
                 </ul>
               </div>
             </div>
@@ -970,11 +1074,6 @@ h6 {
             <p>Стань представителем AVON прямо сейчас!</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://avon-centre.ru/" title="Официальная регистрация Представителей Avon" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -986,7 +1085,19 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>sass</li><li>prepros</li><li>js</li><li>jquery</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>sass</li>
+                  
+                    <li>prepros</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
                 </ul>
               </div>
             </div>
@@ -1005,14 +1116,9 @@ h6 {
                 </h1>
               </a>
             </noindex>
-            <p>Клон сайт Кредитный Адвокат находятся под одной cmf modx </p>
+            <p>Клон сайт Кредитный Адвокат находятся под одной cmf modx</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://upravlyayushchiy.ru" title="Лига арбитражных управляющих" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -1024,7 +1130,25 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>gulp</li>
+                  
+                    <li>pug</li>
+                  
+                    <li>stylus</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
+                    <li>php</li>
+                  
+                    <li>modx</li>
+                  
                 </ul>
               </div>
             </div>
@@ -1046,11 +1170,6 @@ h6 {
             <p>c 2016 до 2018 года сайт потерпел 3 редизайна</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="https://hamam64.ru/" title="Строительство хаммамов, бань, бассейнов и спа-зон в Саратове и области" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -1062,7 +1181,21 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>gulp</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>gulp</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
+                    <li>php</li>
+                  
+                    <li>modx</li>
+                  
                 </ul>
               </div>
             </div>
@@ -1084,11 +1217,6 @@ h6 {
             <p>Корпоративный сайт для компании адвокатов</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://kreditadvokat.ru" title="Кредитный Адвокат" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -1100,11 +1228,29 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>gulp</li>
+                  
+                    <li>pug</li>
+                  
+                    <li>stylus</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
+                    <li>php</li>
+                  
+                    <li>modx</li>
+                  
                 </ul>
               </div>
             </div>
-            <time pubdate datetime="2016-10-1">
+            <time pubdate datetime="2016-10-01">
               2016
             </time>
           </article>
@@ -1119,14 +1265,9 @@ h6 {
                 </h1>
               </a>
             </noindex>
-            <p>Посадочная страница, для продажи  книги инструкции по самостоятельному проведению процедуры банкротства физического лица </p>
+            <p>Посадочная страница, для продажи  книги инструкции по самостоятельному проведению процедуры банкротства физического лица</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://azbukabankrotstva.ru/" title="Федеральный проект по оказанию помощи должникам «Школа банкротства»" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -1138,7 +1279,21 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>gulp</li>
+                  
+                    <li>pug</li>
+                  
+                    <li>stylus</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
                 </ul>
               </div>
             </div>
@@ -1160,11 +1315,6 @@ h6 {
             <p>Сайт ФЭС по банкротству. С уклоном на статьи и новости банкротства. Не обновляется</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://vbankrotstve.ru" title="Федеральная Экспертная Служба" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -1176,7 +1326,25 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>gulp</li><li>pug</li><li>stylus</li><li>js</li><li>jquery</li><li>php</li><li>modx</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>gulp</li>
+                  
+                    <li>pug</li>
+                  
+                    <li>stylus</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
+                    <li>php</li>
+                  
+                    <li>modx</li>
+                  
                 </ul>
               </div>
             </div>
@@ -1195,14 +1363,9 @@ h6 {
                 </h1>
               </a>
             </noindex>
-            <p>Осенью 2016 года в Саратове состоялась ИТ-конференция! Посадочная страница, страница регистрации на конференцию. </p>
+            <p>Осенью 2016 года в Саратове состоялась ИТ-конференция! Посадочная страница, страница регистрации на конференцию.</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://2016.youcon.ru/" title="Юкон-2016" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -1214,7 +1377,21 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>js</li><li>jquery</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
+                    <li>Liquid</li>
+                  
+                    <li>Jekyll</li>
+                  
+                    <li>github-pages</li>
+                  
                 </ul>
               </div>
             </div>
@@ -1236,11 +1413,6 @@ h6 {
             <p>Сайт издания, для многих пользователей с модерацией, визуальными редакторами и кучей плагинов для вордпресс</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://smogmag.ru/" title="Smog — издание об удобном Саратове" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -1252,7 +1424,19 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>js</li><li>jquery</li><li>php</li><li>wordpress</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
+                    <li>php</li>
+                  
+                    <li>wordpress</li>
+                  
                 </ul>
               </div>
             </div>
@@ -1271,14 +1455,9 @@ h6 {
                 </h1>
               </a>
             </noindex>
-            <p>Сайт для фотоотчетов и новостной ленты </p>
+            <p>Сайт для фотоотчетов и новостной ленты</p>
             <noindex>
               <ul class="list_cer">
-                <!-- <li><a class="contact__item contact__item--cer hover-hw" target="_blank" href="" title=" - ">
-                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxMjhweCIgaGVpZ2h0PSIxMjhweCI+CjxnPgoJPHBhdGggZD0iTTU3LDZIMUMwLjQ0OCw2LDAsNi40NDcsMCw3djQ0YzAsMC41NTMsMC40NDgsMSwxLDFoNTZjMC41NTIsMCwxLTAuNDQ3LDEtMVY3QzU4LDYuNDQ3LDU3LjU1Miw2LDU3LDZ6IE01Niw1MEgyVjhoNTRWNTB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTYsMjguMTM4YzMuMDcxLDAsNS41NjktMi40OTgsNS41NjktNS41NjhDMjEuNTY5LDE5LjQ5OCwxOS4wNzEsMTcsMTYsMTdzLTUuNTY5LDIuNDk4LTUuNTY5LDUuNTY5ICAgQzEwLjQzMSwyNS42NCwxMi45MjksMjguMTM4LDE2LDI4LjEzOHogTTE2LDE5YzEuOTY4LDAsMy41NjksMS42MDIsMy41NjksMy41NjlTMTcuOTY4LDI2LjEzOCwxNiwyNi4xMzhzLTMuNTY5LTEuNjAxLTMuNTY5LTMuNTY4ICAgUzE0LjAzMiwxOSwxNiwxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03LDQ2YzAuMjM0LDAsMC40Ny0wLjA4MiwwLjY2LTAuMjQ5bDE2LjMxMy0xNC4zNjJsMTAuMzAyLDEwLjMwMWMwLjM5MSwwLjM5MSwxLjAyMywwLjM5MSwxLjQxNCwwczAuMzkxLTEuMDIzLDAtMS40MTQgICBsLTQuODA3LTQuODA3bDkuMTgxLTEwLjA1NGwxMS4yNjEsMTAuMzIzYzAuNDA3LDAuMzczLDEuMDQsMC4zNDUsMS40MTMtMC4wNjJjMC4zNzMtMC40MDcsMC4zNDYtMS4wNC0wLjA2Mi0xLjQxM2wtMTItMTEgICBjLTAuMTk2LTAuMTc5LTAuNDU3LTAuMjY4LTAuNzItMC4yNjJjLTAuMjY1LDAuMDEyLTAuNTE1LDAuMTI5LTAuNjk0LDAuMzI1bC05Ljc5NCwxMC43MjdsLTQuNzQzLTQuNzQzICAgYy0wLjM3NC0wLjM3My0wLjk3Mi0wLjM5Mi0xLjM2OC0wLjA0NEw2LjMzOSw0NC4yNDljLTAuNDE1LDAuMzY1LTAuNDU1LDAuOTk3LTAuMDksMS40MTJDNi40NDcsNDUuODg2LDYuNzIzLDQ2LDcsNDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="Посмотреть в полном размере">
-                    <p style="left: 0; background: rgba(39, 39, 39, 0.7); ">Посмотреть в полном размере</p>
-                  </a>
-                </li> -->
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="http://vmfsaratov.ru" title="2015 РОО «СОЮЗ ВОЕННЫХ МОРЯКОВ» Саратовское областное отделение" target="_blank" rel="nofollow">
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgNDgyLjEzNiA0ODIuMTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODIuMTM2IDQ4Mi4xMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNNDU1LjQ4MiwxOTguMTg0TDMyNi44MjksMzI2LjgzMmMtMzUuNTM1LDM1LjU0LTkzLjEwOCwzNS41NC0xMjguNjQ2LDBsLTQyLjg4MS00Mi44ODZsNDIuODgxLTQyLjg3Nmw0Mi44ODQsNDIuODc2ICAgYzExLjg0NSwxMS44MjIsMzEuMDY0LDExLjg0Niw0Mi44ODYsMGwxMjguNjQ0LTEyOC42NDNjMTEuODE2LTExLjgzMSwxMS44MTYtMzEuMDY2LDAtNDIuOWwtNDIuODgxLTQyLjg4MSAgIGMtMTEuODIyLTExLjgxNC0zMS4wNjQtMTEuODE0LTQyLjg4NywwbC00NS45MjgsNDUuOTM2Yy0yMS4yOTItMTIuNTMxLTQ1LjQ5MS0xNy45MDUtNjkuNDQ5LTE2LjI5MWw3Mi41MDEtNzIuNTI2ICAgYzM1LjUzNS0zNS41MjEsOTMuMTM2LTM1LjUyMSwxMjguNjQ0LDBsNDIuODg2LDQyLjg4MUM0OTEuMDE4LDEwNS4wNDUsNDkxLjAxOCwxNjIuNjYzLDQ1NS40ODIsMTk4LjE4NHogTTIwMS4yMDYsMzY2LjY5OCAgIGwtNDUuOTAzLDQ1LjljLTExLjg0NSwxMS44NDYtMzEuMDY0LDExLjgxNy00Mi44ODEsMGwtNDIuODg0LTQyLjg4MWMtMTEuODQ1LTExLjgyMS0xMS44NDUtMzEuMDQxLDAtNDIuODg2bDEyOC42NDYtMTI4LjY0OCAgIGMxMS44MTktMTEuODE0LDMxLjA2OS0xMS44MTQsNDIuODg0LDBsNDIuODg2LDQyLjg4Nmw0Mi44NzYtNDIuODg2bC00Mi44NzYtNDIuODgxYy0zNS41NC0zNS41MjEtOTMuMTEzLTM1LjUyMS0xMjguNjUsMCAgIEwyNi42NTUsMjgzLjk0NmMtMzUuNTM4LDM1LjU0NS0zNS41MzgsOTMuMTQ2LDAsMTI4LjY1Mmw0Mi44ODMsNDIuODgyYzM1LjUxLDM1LjU0LDkzLjExLDM1LjU0LDEyOC42NDYsMGw3Mi40OTYtNzIuNDk5ICAgQzI0Ni43MjQsMzg0LjU3OCwyMjIuNTg4LDM3OS4xOTcsMjAxLjIwNiwzNjYuNjk4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="  alt="Перейти по внешний ссылки">
@@ -1290,7 +1469,19 @@ h6 {
             <div class="site__tags">
               <div class="row">
                 <ul>
-                    <li>html</li><li>css</li><li>js</li><li>jquery</li><li>php</li><li>wordpress</li>
+                  
+                    <li>html</li>
+                  
+                    <li>css</li>
+                  
+                    <li>js</li>
+                  
+                    <li>jquery</li>
+                  
+                    <li>php</li>
+                  
+                    <li>wordpress</li>
+                  
                 </ul>
               </div>
             </div>
@@ -1342,7 +1533,10 @@ h6 {
         <li>zepto</li>
       
         
-        <li>gulp/Grunt</li>
+        <li>gulp</li>
+      
+        
+        <li>Grunt</li>
       
         
         <li>webpack</li>
@@ -1369,6 +1563,9 @@ h6 {
         <li>MySQL</li>
       
         
+        <li>PostgreSQL</li>
+      
+        
         <li>PhpMyAdmin</li>
       
         
@@ -1391,6 +1588,9 @@ h6 {
       
         
         <li>XAMPP</li>
+      
+        
+        <li>LAMPP</li>
       
         
         <li>modx</li>
@@ -1487,6 +1687,9 @@ h6 {
       
         
         <li>extjs</li>
+      
+        
+        <li>Liquid</li>
       
     </ul>
   </div>
