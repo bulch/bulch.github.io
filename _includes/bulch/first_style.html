@@ -70,6 +70,11 @@
 </script>
 <!-- // Load CSS End -->
 
+{% comment %} preload {% endcomment %}
+<link rel="preload" href="{{ '/static/css/style.css?v=1.0.0' | append: site.github.build_revision | relative_url }}" as="style" />
+<link rel="preload" href="{{ 'static/css/hw.css?ver=1.0.0' | append: site.github.build_revision | relative_url }}" as="style" />
+{% comment %} // preload {% endcomment %}
+
 <!-- // Load CSS Compiled without JS -->
 <noscript>
   <link href="{{ 'static/css/hw.css?ver=1.0.0' | append: site.github.build_revision | relative_url }}" rel="stylesheet" type="text/css">
@@ -78,5 +83,5 @@
 
 
 <style>
-  {% include bulch/css/MediaQuery.css%}
+  {% include bulch/css/MediaQuery.css %}
 </style>
