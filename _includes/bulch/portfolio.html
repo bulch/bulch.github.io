@@ -17,6 +17,7 @@
             </noindex>
             <p>{{ work.description }}</p>
             <noindex>
+              {% if work.website %}
               <ul class="list_cer">
                 <li>
                   <a class="contact__item contact__item--cer hover-hw" href="{{ work.website }}" title="{{ work.name }}" target="_blank" rel="nofollow">
@@ -25,6 +26,7 @@
                     </a>
                 </li>
               </ul>
+              {% endif %}
             </noindex>
             <div class="site__tags">
               <div class="row">
