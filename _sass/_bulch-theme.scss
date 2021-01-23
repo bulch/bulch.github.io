@@ -9,21 +9,16 @@
   h2 {font-size: 4rem}
   h3 {font-size: 3rem}
   h4 {font-size: 2rem}
-  h5 {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-  }
+  h5 {font-size: 1.5rem; text-transform: uppercase}
   h6 {
     font-size: 1rem;
     text-transform: uppercase;
     color: $grey;
   }
-  &-header {}
   &-title {
     border-bottom: 1px solid $chelsea-cucumber;
     padding: 0.7em;
   }
-  &-content {}
 }
 .btn-green-color{
   background: $conifer;
@@ -58,10 +53,7 @@
     }
   }
 }
-
-.hover-hw h1 {
-  display: inline-block;
-}
+.hover-hw h1 {display: inline-block;}
 .contact {
   list-style-type: none;
   li {
@@ -95,9 +87,7 @@
      bottom: -10px;
      transition: all .5s cubic-bezier(0.6, -0.6, 0.2, 1.5);
    }
-   & img {
-     width: 24px;
-   }
+   & img { width: 24px }
    &:hover img+p {
      visibility: visible;
      bottom: 36px;
@@ -109,7 +99,6 @@
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
 }
-
 li.hover-hw article {
   height: 100%;
   display: flex;
