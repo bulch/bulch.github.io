@@ -29,8 +29,9 @@
   date: 2018-12-01
 
 - name: Русский уголь
-  description: Красивый сайт с калькулятором стоимости и возможностью предварительного заказа древесного угля
-  website: http://sarugol.ru
+  description: Красивый сайт с калькулятором стоимости и возможностью предварительного заказа древесного угля. Сайт закрылся, но часть переделана на nuxtjs и опубликована на gitlab pages
+  # website: http://sarugol.ru
+  website: https://bulch.gitlab.io/sarugol/
   tech:
     [
       html,
@@ -40,13 +41,16 @@
       stylus,
       js,
       jquery,
+      nuxtjs,
+      gitlab ci,
+      gitlab pages
     ]
   date: 2017-03-01
 
 
 - name: Федеральный проект по оказанию помощи должникам «Школа банкротства»
   description: Посадочная страница, для продажи  книги инструкции по самостоятельному проведению процедуры банкротства физического лица
-  website: http://azbukabankrotstva.ru/
+  # website: http://azbukabankrotstva.ru/
   tech:
     [
       html,
@@ -61,7 +65,7 @@
 
 - name: Федеральная Экспертная Служба
   description: Сайт ФЭС по банкротству. С уклоном на статьи и новости банкротства. Не обновляется
-  website: http://vbankrotstve.ru
+  # website: http://vbankrotstve.ru
   tech:
     [
       html,
@@ -78,7 +82,7 @@
 
 - name: Кредитный Адвокат
   description: Корпоративный сайт для компании адвокатов
-  website: http://kreditadvokat.ru
+  # website: http://kreditadvokat.ru
   tech:
     [
       html,
@@ -95,7 +99,7 @@
 
 - name: Лига арбитражных управляющих
   description: Клон сайт Кредитный Адвокат находятся под одной cmf modx
-  website: http://upravlyayushchiy.ru
+  # website: http://upravlyayushchiy.ru
   tech:
     [
       html,
@@ -112,7 +116,7 @@
 
 - name: лидерыправа.рф
   description: Сайт на тильде. Регистрация в конкурсе лидерыправа
-  website: http://лидерыправа.рф
+  # website: http://лидерыправа.рф
   tech:
     [
       tilda,
@@ -121,7 +125,7 @@
 
 - name: Кондитерские изделия - artcake64
   description: Сайт на тильде  для продажи тортиков и всяких вкусностей
-  website: http://tort.artcake64.ru/
+  # website: http://tort.artcake64.ru/
   tech:
     [
       tilda,
@@ -161,7 +165,7 @@
 
 - name: Официальная регистрация Представителей Avon
   description: Стань представителем AVON прямо сейчас!
-  website: http://avon-centre.ru/
+  # website: http://avon-centre.ru/
   tech:
     [
       html,
@@ -177,6 +181,7 @@
   description: Сайт издания, для многих пользователей с модерацией, 
     визуальными редакторами и кучей плагинов для вордпресс. 
     Домен http://smogmag.ru/ не был продлен
+  # website: http://smogmag.ru/
   tech:
     [
       html,
@@ -281,7 +286,9 @@
   date: 2016-10-20
 
 - name: Услуги по сертификации — ООО «Вектор гарантии качества»
-  description: Простой сайт на modx. 
+  description: Услуги сертификации в Саратове - помощь в разработке и оформлении документации, 
+    а также внедрении систем менеджмента в процессы Вашей организации.
+    Простой сайт на modx. 
     Модульная верстка, унивирсальные шаблоны - дают возможность легко проктировать 
     и создавать новые страницы с презентацией услуг
   website: https://vektor-gk.ru/
@@ -329,6 +336,20 @@
       youtube api,
     ]
   date: 2020-10-01
+
+- name: «Виктория Девелопмент»
+  description: Корпоративный сайт компании «Виктория Девелопмент».
+    bitrix, шаблон для создания других похожих сайтов, 
+    ипотечный калькулятор(js)+интеграция в битрикс(iblock, bitrix api)
+  website: https://v-vd.ru/
+  tech:
+    [
+      bitrix,
+      php,
+      js,
+      bitrix api,
+    ]
+  date: 2019-12-01
 
 - name: Жилой комплекс Серебро
   description: Сайт по продажи квартир в новых домах,
