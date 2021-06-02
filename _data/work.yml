@@ -305,7 +305,7 @@
 
 - name: Лесная карта - Комплекс программных решений для департаментов лесного хозяйства и предприятий лесной отрасли
   description: landing page мобильного приложения. Работает полностью на nodejs
-  website: http://gis-forest.ru/
+  # website: http://gis-forest.ru/
   tech:
     [
       nodejs,
