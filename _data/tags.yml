@@ -81,3 +81,6 @@
 - name: 'Telegram API'
 - name: 'GitLab API'
 - name: 'Flask'
+- name: 'rsync'
+- name: 'Netdata'
+- name: 'zx'
