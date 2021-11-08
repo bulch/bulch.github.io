@@ -83,4 +83,6 @@
 - name: 'Flask'
 - name: 'rsync'
 - name: 'Netdata'
+- name: 'Grafana'
+- name: 'Prometheus'
 - name: 'zx'
